@@ -1,0 +1,17 @@
+[Info  - 3:09:03 PM] Pylance language server 2021.12.0 (pyright acfc919d) starting
+[Info  - 3:09:03 PM] Server root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 3:09:03 PM] No configuration file found.
+[Info  - 3:09:03 PM] No pyproject.toml file found.
+[Info  - 3:09:03 PM] Setting pythonPath for service "lemonade": "/bin/python"
+[Warn  - 3:09:03 PM] stubPath /home/george/Repos/lemonade/typings is not a valid directory.
+[Info  - 3:09:03 PM] Assuming Python version 3.9
+[Info  - 3:09:03 PM] Assuming Python platform Linux
+[Warn  - 3:09:04 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 3:09:04 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 3:09:04 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 3:09:04 PM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 3:09:04 PM] Searching for source files
+[Info  - 3:09:04 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 3:09:04 PM] Found 185 source files
+[Info  - 3:09:04 PM] Background analysis(1) root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 3:09:04 PM] Background analysis(1) started

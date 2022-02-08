@@ -1,0 +1,16 @@
+[2021-12-09 10:29:02.399] [main] [info] update#setState idle
+[2021-12-09 10:29:02.435] [main] [info] ExtensionHostStarterWorker created
+[2021-12-09 10:29:03.713] [main] [info] Starting extension host with pid 2570 (fork() took 7 ms).
+[2021-12-09 10:29:03.739] [main] [info] Starting extension host with pid 2572 (fork() took 4 ms).
+[2021-12-09 10:29:32.401] [main] [info] update#setState checking for updates
+[2021-12-09 10:29:32.484] [main] [info] update#setState idle
+[2021-12-09 11:09:51.861] [main] [info] Enabling inspect port on extension host with pid 2572.
+[2021-12-09 11:29:32.495] [main] [info] update#setState checking for updates
+[2021-12-09 11:29:32.859] [main] [info] update#setState idle
+[2021-12-09 12:29:32.593] [main] [info] update#setState checking for updates
+[2021-12-09 12:29:32.941] [main] [info] update#setState idle
+[2021-12-09 13:29:32.657] [main] [info] update#setState checking for updates
+[2021-12-09 13:29:33.036] [main] [info] update#setState idle
+[2021-12-09 14:28:12.086] [main] [info] Extension host with pid 2572 exited with code: 0, signal: null.
+[2021-12-09 14:28:12.843] [main] [info] Waiting for extension host with pid 2570 to exit.
+[2021-12-09 14:28:12.900] [main] [info] Extension host with pid 2570 exited with code: 0, signal: null.

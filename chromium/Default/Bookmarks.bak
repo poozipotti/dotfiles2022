@@ -1,0 +1,47 @@
+{
+   "checksum": "09232981f85c30004e354fb151220f4c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13282842451670651",
+            "guid": "ed527917-1efe-4318-9caf-0566ca25ba94",
+            "id": "5",
+            "name": "Build history – Cloud Build – Mighty – Google Cloud Platform",
+            "type": "url",
+            "url": "https://console.cloud.google.com/cloud-build/builds?project=mighty-staging"
+         }, {
+            "date_added": "13283557010172465",
+            "guid": "77b80c02-bafd-4b3b-b21c-54fce348b98f",
+            "id": "7",
+            "name": "Theme Configuration - Tailwind CSS",
+            "type": "url",
+            "url": "https://tailwindcss.com/docs/theme#customizing-the-default-theme"
+         } ],
+         "date_added": "13282841577800425",
+         "date_modified": "13283557010172465",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13282841577800428",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13282841577800430",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

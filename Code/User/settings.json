@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.lineNumbers": "relative"
+}

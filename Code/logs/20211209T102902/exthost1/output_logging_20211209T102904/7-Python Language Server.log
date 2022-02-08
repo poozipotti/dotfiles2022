@@ -1,0 +1,19 @@
+[Info  - 10:29:09 AM] Pylance language server 2021.12.0 (pyright acfc919d) starting
+[Info  - 10:29:09 AM] Server root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 10:29:09 AM] No configuration file found.
+[Info  - 10:29:09 AM] No pyproject.toml file found.
+[Info  - 10:29:09 AM] Setting pythonPath for service "lemonade": "/bin/python"
+[Warn  - 10:29:09 AM] stubPath /home/george/Repos/lemonade/typings is not a valid directory.
+[Info  - 10:29:09 AM] Assuming Python version 3.9
+[Info  - 10:29:09 AM] Assuming Python platform Linux
+[Warn  - 10:29:10 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:29:10 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:29:10 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:29:10 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 10:29:10 AM] Searching for source files
+[Info  - 10:29:10 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 10:29:10 AM] Found 185 source files
+[Info  - 10:29:10 AM] Background analysis(1) root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 10:29:10 AM] Background analysis(1) started
+[Info  - 2:17:33 PM] [BG(1)] Long operation: checking: /home/george/Repos/lemonade/eternia/common/app_factory.py (2094ms)
+[Info  - 2:17:33 PM] [BG(1)] Long operation: analyzing: /home/george/Repos/lemonade/eternia/common/app_factory.py (2721ms)

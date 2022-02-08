@@ -1,0 +1,96 @@
+[2022-02-08 11:21:13.725] [sharedprocess] [info] Starting worker process with pid 3083 (type: fileWatcher, window: 2).
+[2022-02-08 11:21:13.725] [sharedprocess] [info] Starting worker process with pid 3084 (type: fileWatcher, window: 1).
+[2022-02-08 11:21:14.115] [sharedprocess] [info] Deleted from disk ms-python.python /home/george/.vscode/extensions/ms-python.python-2021.11.1422169775
+[2022-02-08 11:21:15.768] [sharedprocess] [info] Getting Manifest... dracula-theme.theme-dracula
+[2022-02-08 11:21:15.769] [sharedprocess] [info] Getting Manifest... ms-azuretools.vscode-docker
+[2022-02-08 11:21:15.769] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-02-08 11:21:15.770] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-02-08 11:21:15.770] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-02-08 11:21:15.770] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:15.771] [sharedprocess] [info] Getting Manifest... ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:15.771] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-02-08 11:21:16.033] [sharedprocess] [info] Getting Manifest... dracula-theme.theme-dracula
+[2022-02-08 11:21:16.034] [sharedprocess] [info] Getting Manifest... ms-azuretools.vscode-docker
+[2022-02-08 11:21:16.034] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-02-08 11:21:16.034] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-02-08 11:21:16.034] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-02-08 11:21:16.035] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:16.035] [sharedprocess] [info] Getting Manifest... ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:16.035] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-02-08 11:21:16.044] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-02-08 11:21:16.050] [sharedprocess] [info] Extensions is already requested to install vscodevim.vim
+[2022-02-08 11:21:16.684] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2022-02-08 11:21:16.693] [sharedprocess] [info] Extensions is already requested to install ms-azuretools.vscode-docker
+[2022-02-08 11:21:16.752] [sharedprocess] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:16.754] [sharedprocess] [info] Extensions is already requested to install ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:16.758] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2022-02-08 11:21:16.759] [sharedprocess] [info] Extensions is already requested to install dracula-theme.theme-dracula
+[2022-02-08 11:21:17.810] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /home/george/.config/Code/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.24.1
+[2022-02-08 11:21:17.865] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/george/.config/Code/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.19.0
+[2022-02-08 11:21:17.920] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.18167910-87ad-414c-b4dc-deee28d68572: dracula-theme.theme-dracula
+[2022-02-08 11:21:17.933] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/dracula-theme.theme-dracula-2.24.1
+[2022-02-08 11:21:17.939] [sharedprocess] [info] Extracting completed. dracula-theme.theme-dracula
+[2022-02-08 11:21:17.949] [sharedprocess] [info] Extension installed successfully: dracula-theme.theme-dracula
+[2022-02-08 11:21:18.368] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.f2c8d926-25ea-4a15-8250-fc477b48618b: ms-azuretools.vscode-docker
+[2022-02-08 11:21:18.385] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/ms-azuretools.vscode-docker-1.19.0
+[2022-02-08 11:21:18.388] [sharedprocess] [info] Extracting completed. ms-azuretools.vscode-docker
+[2022-02-08 11:21:18.409] [sharedprocess] [info] Extension installed successfully: ms-azuretools.vscode-docker
+[2022-02-08 11:21:18.657] [sharedprocess] [info] Downloaded extension: ms-vsliveshare.vsliveshare /home/george/.config/Code/CachedExtensionVSIXs/ms-vsliveshare.vsliveshare-1.0.5330
+[2022-02-08 11:21:20.447] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.caae43d1-4a36-4562-b874-4bc97111c08c: ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:20.457] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5330
+[2022-02-08 11:21:20.459] [sharedprocess] [info] Extracting completed. ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:20.467] [sharedprocess] [info] Extension installed successfully: ms-vsliveshare.vsliveshare
+[2022-02-08 11:21:21.056] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-02-08 11:21:21.187] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-02-08 11:21:21.189] [sharedprocess] [info] Extensions is already requested to install ms-python.python
+[2022-02-08 11:21:21.194] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:21.195] [sharedprocess] [info] Extensions is already requested to install ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:21.196] [sharedprocess] [info] Extensions is already requested to install ms-toolsai.jupyter
+[2022-02-08 11:21:21.199] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-02-08 11:21:21.200] [sharedprocess] [info] Extensions is already requested to install ms-python.vscode-pylance
+[2022-02-08 11:21:21.627] [sharedprocess] [error] Error while installing the extension: ms-python.python
+[2022-02-08 11:21:21.628] [sharedprocess] [error] Failed to install extension. ms-python.python
+[2022-02-08 11:21:21.628] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.628] [sharedprocess] [error] Failed to install extension. ms-python.python
+[2022-02-08 11:21:21.628] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.629] [sharedprocess] [error] Error while installing the extension: vscodevim.vim
+[2022-02-08 11:21:21.629] [sharedprocess] [error] Failed to install extension. vscodevim.vim
+[2022-02-08 11:21:21.629] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.629] [sharedprocess] [error] Failed to install extension. vscodevim.vim
+[2022-02-08 11:21:21.629] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.917] [sharedprocess] [error] Error while installing the extension: ms-toolsai.jupyter
+[2022-02-08 11:21:21.918] [sharedprocess] [error] Failed to install extension. ms-toolsai.jupyter
+[2022-02-08 11:21:21.918] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.918] [sharedprocess] [error] Failed to install extension. ms-toolsai.jupyter
+[2022-02-08 11:21:21.918] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.927] [sharedprocess] [error] Error while installing the extension: ms-python.vscode-pylance
+[2022-02-08 11:21:21.928] [sharedprocess] [error] Failed to install extension. ms-python.vscode-pylance
+[2022-02-08 11:21:21.928] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.928] [sharedprocess] [error] Failed to install extension. ms-python.vscode-pylance
+[2022-02-08 11:21:21.928] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.951] [sharedprocess] [error] Error while installing the extension: ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:21.952] [sharedprocess] [error] Failed to install extension. ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:21.952] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 11:21:21.952] [sharedprocess] [error] Failed to install extension. ms-toolsai.jupyter-renderers
+[2022-02-08 11:21:21.952] [sharedprocess] [error] Download: XHR failed
+    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
+    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)
+[2022-02-08 16:55:34.303] [sharedprocess] [info] Worker process with pid 3084 terminated normally (type: fileWatcher, window: 1).

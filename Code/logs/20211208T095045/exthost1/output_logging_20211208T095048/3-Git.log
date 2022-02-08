@@ -1,0 +1,29 @@
+Validating found git in: git
+Using git 2.34.1 from git
+> git rev-parse --git-dir
+Open repository: /home/george/Repos/lemonade
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/george/feature/test-tailwind-upgrade refs/remotes/george/feature/test-tailwind-upgrade
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :application/static/js/core/Button/Button.js
+> git ls-files --stage -- /home/george/Repos/lemonade/application/static/js/core/Button/Button.js
+> git cat-file -s 2e51464eeec7991769573d2857f48bc1569e78d6
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/george/feature/test-tailwind-upgrade refs/remotes/george/feature/test-tailwind-upgrade
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/george/Repos/lemonade/application/static/js/core/Button/Button.js
+> git cat-file -s 2e51464eeec7991769573d2857f48bc1569e78d6
+> git config --get commit.template
+> git show --textconv :application/static/js/core/Button/Button.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/george/feature/test-tailwind-upgrade refs/remotes/george/feature/test-tailwind-upgrade
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

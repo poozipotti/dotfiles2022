@@ -1,0 +1,30 @@
+[2021-12-09 10:29:04.687] [exthost] [info] Extension host with pid 2572 started
+[2021-12-09 10:29:04.687] [exthost] [info] Skipping acquiring lock for /home/george/.config/Code/User/workspaceStorage/500c234225c911e47b1cca8d0c1d26c6.
+[2021-12-09 10:29:04.823] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-09 10:29:04.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-09 10:29:04.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-09 10:29:04.880] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-09 10:29:04.934] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-09 10:29:04.970] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-09 10:29:05.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-09 10:29:05.016] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-09 10:29:05.021] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-09 10:29:05.146] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:setup.py'
+[2021-12-09 10:29:05.508] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-09 10:29:05.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-09 10:29:05.797] [exthost] [info] Eager extensions activated
+[2021-12-09 10:29:05.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-09 10:29:05.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-09 10:29:05.883] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-09 10:29:07.159] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-12-09 10:29:48.584] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-09 14:17:30.123] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-09 14:17:30.527] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-09 14:17:30.528] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/george/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+    at S.handleFailedRequest (/home/george/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+    at /home/george/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+    at T.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-09 14:17:31.191] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-09 14:28:12.035] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-09 14:28:12.061] [exthost] [info] Extension host with pid 2572 exiting with code 0

@@ -1,0 +1,20 @@
+[2021-12-09 14:42:33.264] [sharedprocess] [info] Starting worker process with pid 206550 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-09 14:42:33.286] [sharedprocess] [info] Starting worker process with pid 206552 (type: watcherServiceParcelSharedProcess, window: 2).
+[2021-12-09 14:42:33.705] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/george/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599
+[2021-12-09 14:42:35.335] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-12-09 14:42:36.254] [sharedprocess] [info] Downloaded extension: ms-python.python /home/george/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2021-12-09 14:42:37.850] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.d6ab5218-7c1f-4314-91a5-f909ec41820e: ms-python.python
+[2021-12-09 14:42:37.859] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2021-12-09 14:42:37.862] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-12-09 14:42:37.868] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-12-09 15:07:12.017] [sharedprocess] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2021-12-09 15:07:12.968] [sharedprocess] [info] Downloaded extension: ms-vsliveshare.vsliveshare /home/george/.config/Code/CachedExtensionVSIXs/ms-vsliveshare.vsliveshare-1.0.5196
+[2021-12-09 15:07:13.647] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.7f49a605-8319-479e-9471-b1d2828be830: ms-vsliveshare.vsliveshare
+[2021-12-09 15:07:13.662] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5196
+[2021-12-09 15:07:13.663] [sharedprocess] [info] Extracting completed. ms-vsliveshare.vsliveshare
+[2021-12-09 15:07:13.666] [sharedprocess] [info] Extension installed successfully: ms-vsliveshare.vsliveshare
+[2021-12-09 15:08:57.145] [sharedprocess] [info] Worker process with pid 206550 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-09 15:09:01.111] [sharedprocess] [info] Starting worker process with pid 229115 (type: watcherServiceParcelSharedProcess, window: 5).
+[2021-12-09 15:09:54.971] [sharedprocess] [info] Worker process with pid 229115 terminated normally (type: watcherServiceParcelSharedProcess, window: 5).
+[2021-12-09 15:09:57.630] [sharedprocess] [info] Starting worker process with pid 230498 (type: watcherServiceParcelSharedProcess, window: 6).
+[2021-12-09 15:10:37.732] [sharedprocess] [info] Worker process with pid 230498 terminated normally (type: watcherServiceParcelSharedProcess, window: 6).

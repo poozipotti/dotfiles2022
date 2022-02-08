@@ -1,0 +1,18 @@
+[2021-09-23 14:05:30.069] [info]  Running version 2021.4.1
+[2021-09-23 14:05:30.084] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2021-09-23 14:05:30.097] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2021-09-23 14:05:30.199] [error] [electron client protocol] the default application set for 'insomnia://' was not found
+[2021-09-23 14:05:30.388] [info]  [fix] Running database repairs
+[2021-09-23 14:05:30.455] [info]  [db] Initialized DB at /home/george/.config/Insomnia/insomnia.$TYPE.db
+[2021-09-23 14:05:30.455] [info]  [db] Init responses DB
+[2021-09-23 14:05:30.458] [info]  [localstorage] Initialized at /home/george/.config/Insomnia/localStorage
+[2021-09-23 14:05:30.624] [info]  [main] Loading file:///tmp/.mount_InsomnaobixY/resources/app.asar/renderer.html
+[2021-09-23 14:05:30.648] [info]  [ga] Non-interactive General, Launched, 2021.4.1
+[2021-09-23 14:05:30.661] [info]  [ga] Queued event [
+  { name: 't', value: 'event' },
+  { name: 'ec', value: 'General' },
+  { name: 'ea', value: 'Launched' },
+  { name: 'ni', value: '1' },
+  { name: 'el', value: '2021.4.1' }
+]
+[2021-09-23 14:05:31.149] [info]  [updater] Updater not running platform=linux dev=false

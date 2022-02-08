@@ -1,0 +1,15 @@
+2022/02/08-16:16:39.609 250af Reusing MANIFEST /home/george/.config/chromium/Default/IndexedDB/https_staging.mighty.business_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/08-16:16:39.609 250af Recovering log #4
+2022/02/08-16:16:39.609 250af Reusing old log /home/george/.config/chromium/Default/IndexedDB/https_staging.mighty.business_0.indexeddb.leveldb/000004.log 
+2022/02/08-16:20:06.605 278c2 Level-0 table #8: started
+2022/02/08-16:20:06.610 278c2 Level-0 table #8: 21031 bytes OK
+2022/02/08-16:20:06.614 278c2 Delete type=0 #4
+2022/02/08-16:20:06.614 278c2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/02/08-16:20:06.614 278c2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00B\x000\x00k\x00s\x00Z\x00A\x00e\x00s\x00c\x00Q\x00-\x00n\x00j\x00j\x00z\x002\x00p\x00H\x00Q\x00q\x00p\x00M\x00E\x00h\x00i\x00-\x00P\x00Q\x00b\x00r\x00H\x00J\x00U\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 429 : 1
+2022/02/08-16:20:06.614 278c2 Compacting 1@1 + 1@2 files
+2022/02/08-16:20:06.618 278c2 Generated table #9@1: 21 keys, 2279 bytes
+2022/02/08-16:20:06.618 278c2 Compacted 1@1 + 1@2 files => 2279 bytes
+2022/02/08-16:20:06.622 278c2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/08-16:20:06.623 278c2 Delete type=2 #5
+2022/02/08-16:20:06.623 278c2 Delete type=2 #8
+2022/02/08-16:20:06.623 278c2 Manual compaction at level-1 from '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00B\x000\x00k\x00s\x00Z\x00A\x00e\x00s\x00c\x00Q\x00-\x00n\x00j\x00j\x00z\x002\x00p\x00H\x00Q\x00q\x00p\x00M\x00E\x00h\x00i\x00-\x00P\x00Q\x00b\x00r\x00H\x00J\x00U\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 429 : 1 .. (end); will stop at (end)

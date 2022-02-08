@@ -1,0 +1,29 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'pythonSurveyNotificationcf' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+> conda --version
+> ~/.local/share/virtualenvs/lemonade-api-2K0EEa_J/bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /bin/python2 ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /sbin/python2 ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> ~/Repos/lemonade-api/venv/bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+Starting Pylance language server.
+> ~/Repos/lemonade-api/venv/bin/python -c "import sys;print(sys.executable)"
+[ERROR 2022-1-8 11:21:19.11]: Diagnostic Code: InvalidPythonInterpreterDiagnostic, Message: No Python interpreter is selected. You need to select a Python interpreter to enable features such as IntelliSense, linting, and debugging.
+Diagnostic Code: InvalidPythonInterpreterDiagnostic, Message: No Python interpreter is selected. You need to select a Python interpreter to enable features such as IntelliSense, linting, and debugging.

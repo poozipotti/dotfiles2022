@@ -1,0 +1,21 @@
+[2021-09-20 10:24:51.441] [info]  [db] Initialized DB client
+[2021-09-20 10:24:52.169] [info]  [FileSystemDriver] Initialized in "/home/george/.config/Insomnia/version-control"
+[2021-09-20 10:24:52.204] [info]  [ga] Event Activity, Change, debug
+[2021-09-20 10:24:52.204] [info]  [ga] Page /debug
+[2021-09-20 10:24:55.361] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 10:24:55.421] [info]  [net] Set CA to /tmp/insomnia_2021.4.1/ca-certs.pem
+[2021-09-20 10:24:56.320] [info]  [network] Response succeeded req=req_70b0856cde9b4f54aafe047d83655b6f status=200
+[2021-09-20 11:38:15.165] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:15.201] [info]  [network] Response failed req=req_70b0856cde9b4f54aafe047d83655b6f err=Error: Failed sending data to the peer
+[2021-09-20 11:38:16.923] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:16.950] [info]  [network] Response failed req=req_70b0856cde9b4f54aafe047d83655b6f err=Error: Failed sending data to the peer
+[2021-09-20 11:38:19.453] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:19.483] [info]  [network] Response failed req=req_70b0856cde9b4f54aafe047d83655b6f err=Error: Failed sending data to the peer
+[2021-09-20 11:38:19.959] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:19.985] [info]  [network] Response failed req=req_70b0856cde9b4f54aafe047d83655b6f err=Error: Failed sending data to the peer
+[2021-09-20 11:38:33.481] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:34.458] [info]  [network] Response succeeded req=req_70b0856cde9b4f54aafe047d83655b6f status=200
+[2021-09-20 11:38:49.267] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:38:50.133] [info]  [network] Response succeeded req=req_70b0856cde9b4f54aafe047d83655b6f status=200
+[2021-09-20 11:41:07.968] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-20 11:41:08.907] [info]  [network] Response succeeded req=req_70b0856cde9b4f54aafe047d83655b6f status=200

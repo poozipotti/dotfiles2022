@@ -1,0 +1,9 @@
+[2021-12-09 10:29:08.439] [sharedprocess] [info] Starting worker process with pid 3137 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-09 10:29:08.460] [sharedprocess] [info] Starting worker process with pid 3138 (type: watcherServiceParcelSharedProcess, window: 2).
+[2021-12-09 10:29:11.537] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-12-09 10:29:12.891] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/george/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-09 10:29:14.561] [sharedprocess] [info] Extracted extension to /home/george/.vscode/extensions/.3e76e6d8-5cb3-48be-aa77-1445efbb49fe: ms-toolsai.jupyter
+[2021-12-09 10:29:14.573] [sharedprocess] [info] Renamed to /home/george/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-09 10:29:14.579] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-12-09 10:29:14.593] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-12-09 14:28:12.042] [sharedprocess] [info] Worker process with pid 3137 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).

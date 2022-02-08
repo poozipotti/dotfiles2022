@@ -1,0 +1,58 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'pythonSurveyNotificationcf' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonRunFailedTestsButtonDisplayed' is active
+Experiment 'pythonRefreshTestsButtonDisplayed' is active
+Experiment 'pythonRememberDebugConfig' is active
+> conda info --json
+> ~/.local/share/virtualenvs/lemonade-api-2K0EEa_J/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /bin/python2 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /sbin/python2 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+> ~/Repos/lemonade/venv/bin/python ~/.vscode/extensions/ms-python.python-2021.11.1422169775/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Pylance language server.
+> conda --version
+> /bin/python -m pylint --msg-template='{line},{column},{category},{symbol}:{msg} --reports=n --output-format=text ~/Repos/lemonade/eternia/common/app_factory.py
+cwd: ~/Repos/lemonade
+> /bin/python -c "import pylint"
+> /bin/python -c "import pylint"
+
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+> /bin/python -m pylint --msg-template='{line},{column},{category},{symbol}:{msg} --reports=n --output-format=text ~/Repos/lemonade/eternia/common/app_factory.py
+cwd: ~/Repos/lemonade
+> /bin/python -c "import pylint"
+> /bin/python -c "import pylint"
+
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+Error 2021-12-09 14:28:12: Error while running worker[Worker 1]. undefined
+Error 2021-12-09 14:28:12: Error while running worker[Worker 2]. undefined
+Error 2021-12-09 14:28:12: NotInstalledErrorHandler.promptToInstall Canceled: Canceled
+    at Object.R [as canceled] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9064
+    at Array.forEach (<anonymous>)
+    at t.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9012)
+    at p.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:694)
+    at r (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:36400)
+    at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34012)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+Error 2021-12-09 14:28:12: NotInstalledErrorHandler.promptToInstall Canceled: Canceled
+    at Object.R [as canceled] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9064
+    at Array.forEach (<anonymous>)
+    at t.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9012)
+    at p.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:694)
+    at r (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:36400)
+    at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34012)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)

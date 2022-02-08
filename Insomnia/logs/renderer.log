@@ -1,0 +1,7 @@
+[2021-09-23 14:05:32.283] [info]  [db] Initialized DB client
+[2021-09-23 14:05:32.993] [info]  [FileSystemDriver] Initialized in "/home/george/.config/Insomnia/version-control"
+[2021-09-23 14:05:33.027] [info]  [ga] Event Activity, Change, debug
+[2021-09-23 14:05:33.027] [info]  [ga] Page /debug
+[2021-09-23 14:05:37.861] [info]  [network] Sending req=req_70b0856cde9b4f54aafe047d83655b6f env=env_1dc09a29d219625e7c362164bf1676dd0a778782
+[2021-09-23 14:05:37.911] [info]  [net] Set CA to /tmp/insomnia_2021.4.1/ca-certs.pem
+[2021-09-23 14:05:38.774] [info]  [network] Response succeeded req=req_70b0856cde9b4f54aafe047d83655b6f status=200

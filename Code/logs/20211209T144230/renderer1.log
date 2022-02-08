@@ -1,0 +1,18 @@
+[2021-12-09 14:42:32.034] [renderer1] [error] [Extension Host] (node:206410) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-09 15:07:41.860] [renderer1] [error] command 'liveshare.joinFromWelcomeContent' not found: Error: command 'liveshare.joinFromWelcomeContent' not found
+    at y._tryExecuteCommand (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3364)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3245
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async n.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:70656)
+    at async s.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:72529)
+[2021-12-09 15:08:27.662] [renderer1] [error] command 'liveshare.joinFromWelcomeContent' not found: Error: command 'liveshare.joinFromWelcomeContent' not found
+    at y._tryExecuteCommand (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3364)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3245
+    at async n.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:70656)
+    at async s.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:72529)
+[2021-12-09 15:08:31.777] [renderer1] [error] command 'liveshare.joinFromWelcomeContent' not found: Error: command 'liveshare.joinFromWelcomeContent' not found
+    at y._tryExecuteCommand (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3364)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1482:3245
+    at async n.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:70656)
+    at async s.open (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:577:72529)

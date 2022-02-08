@@ -1,0 +1,18 @@
+[2021-12-09 15:09:01.821] [exthost] [info] Extension host with pid 229114 started
+[2021-12-09 15:09:01.821] [exthost] [info] Skipping acquiring lock for /home/george/.config/Code/User/workspaceStorage/500c234225c911e47b1cca8d0c1d26c6.
+[2021-12-09 15:09:01.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-09 15:09:01.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-09 15:09:01.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-09 15:09:01.885] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2021-12-09 15:09:01.994] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-09 15:09:02.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-12-09 15:09:02.028] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:setup.py'
+[2021-12-09 15:09:02.982] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-09 15:09:03.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-09 15:09:03.211] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-09 15:09:03.273] [exthost] [info] Eager extensions activated
+[2021-12-09 15:09:03.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-09 15:09:03.306] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-09 15:09:03.626] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-12-09 15:09:54.968] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-09 15:09:54.991] [exthost] [info] Extension host with pid 229114 exiting with code 0

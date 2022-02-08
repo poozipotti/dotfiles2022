@@ -1,0 +1,119 @@
+[Info  - 10:34:31 AM] Pylance language server 2021.11.2 (pyright b27108d5) starting
+[Info  - 10:34:31 AM] Server root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 10:34:31 AM] No configuration file found.
+[Info  - 10:34:31 AM] No pyproject.toml file found.
+[Info  - 10:34:31 AM] Setting pythonPath for service "lemonade": "/bin/python"
+[Warn  - 10:34:31 AM] stubPath /home/george/Repos/lemonade/typings is not a valid directory.
+[Info  - 10:34:31 AM] Assuming Python version 3.9
+[Info  - 10:34:31 AM] Assuming Python platform Linux
+[Warn  - 10:34:32 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:34:32 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:34:32 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 10:34:32 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 10:34:32 AM] Searching for source files
+[Info  - 10:34:32 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 10:34:32 AM] Found 183 source files
+[Info  - 10:34:32 AM] Background analysis(1) root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.11.2/dist
+[Info  - 10:34:32 AM] Background analysis(1) started
+[Info  - 11:03:39 AM] Searching for source files
+[Info  - 11:03:39 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:03:39 AM] Found 185 source files
+[Info  - 11:03:41 AM] Searching for source files
+[Info  - 11:03:41 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:03:41 AM] Found 185 source files
+[Info  - 11:19:18 AM] Searching for source files
+[Info  - 11:19:18 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:19:18 AM] Found 185 source files
+[Info  - 11:19:23 AM] Searching for source files
+[Info  - 11:19:23 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:19:23 AM] Found 185 source files
+[Info  - 11:19:24 AM] Searching for source files
+[Info  - 11:19:24 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:19:24 AM] Found 185 source files
+[Info  - 11:29:27 AM] Searching for source files
+[Info  - 11:29:27 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:29:27 AM] Found 183 source files
+[Info  - 11:38:44 AM] Searching for source files
+[Info  - 11:38:45 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:38:45 AM] Found 183 source files
+[Info  - 11:39:47 AM] Searching for source files
+[Info  - 11:39:47 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:39:47 AM] Found 185 source files
+[Info  - 11:40:41 AM] Searching for source files
+[Info  - 11:40:41 AM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 11:40:41 AM] Found 185 source files
+[Info  - 12:07:53 PM] Searching for source files
+[Info  - 12:07:53 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:07:53 PM] Found 185 source files
+[Info  - 12:07:58 PM] Searching for source files
+[Info  - 12:07:58 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:07:58 PM] Found 185 source files
+[Info  - 12:07:59 PM] Searching for source files
+[Info  - 12:07:59 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:07:59 PM] Found 185 source files
+[Info  - 12:09:59 PM] Searching for source files
+[Info  - 12:09:59 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:09:59 PM] Found 185 source files
+[Info  - 12:10:00 PM] Searching for source files
+[Info  - 12:10:00 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:10:00 PM] Found 185 source files
+[Info  - 12:10:05 PM] Searching for source files
+[Info  - 12:10:05 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:10:05 PM] Found 185 source files
+[Info  - 12:10:06 PM] Searching for source files
+[Info  - 12:10:06 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:10:06 PM] Found 185 source files
+[Info  - 12:11:02 PM] Searching for source files
+[Info  - 12:11:02 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:11:02 PM] Found 185 source files
+[Info  - 12:18:02 PM] Searching for source files
+[Info  - 12:18:02 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 12:18:02 PM] Found 185 source files
+[Info  - 1:38:18 PM] Searching for source files
+[Info  - 1:38:18 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 1:38:18 PM] Found 185 source files
+[Info  - 1:38:22 PM] Searching for source files
+[Info  - 1:38:22 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 1:38:22 PM] Found 185 source files
+[Info  - 1:47:05 PM] Searching for source files
+[Info  - 1:47:05 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 1:47:05 PM] Found 185 source files
+[Info  - 1:50:55 PM] Searching for source files
+[Info  - 1:50:55 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 1:50:55 PM] Found 185 source files
+[Info  - 2:11:51 PM] Searching for source files
+[Info  - 2:11:51 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:11:51 PM] Found 185 source files
+[Info  - 2:12:02 PM] Searching for source files
+[Info  - 2:12:02 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:12:02 PM] Found 185 source files
+[Info  - 2:22:52 PM] Searching for source files
+[Info  - 2:22:52 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:22:52 PM] Found 185 source files
+[Info  - 2:23:59 PM] Searching for source files
+[Info  - 2:23:59 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:23:59 PM] Found 185 source files
+[Info  - 2:43:01 PM] Searching for source files
+[Info  - 2:43:01 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:43:01 PM] Found 185 source files
+[Info  - 2:49:13 PM] Searching for source files
+[Info  - 2:49:13 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:49:13 PM] Found 185 source files
+[Info  - 2:54:03 PM] Searching for source files
+[Info  - 2:54:03 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:54:03 PM] Found 185 source files
+[Info  - 2:54:48 PM] Searching for source files
+[Info  - 2:54:48 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:54:48 PM] Found 185 source files
+[Info  - 2:59:54 PM] Searching for source files
+[Info  - 2:59:54 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 2:59:54 PM] Found 185 source files
+[Info  - 3:05:21 PM] Searching for source files
+[Info  - 3:05:21 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 3:05:21 PM] Found 185 source files
+[Info  - 4:32:31 PM] Searching for source files
+[Info  - 4:32:31 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 4:32:31 PM] Found 185 source files
+[Info  - 5:30:12 PM] Searching for source files
+[Info  - 5:30:12 PM] Auto-excluding /home/george/Repos/lemonade/venv
+[Info  - 5:30:12 PM] Found 185 source files

@@ -1,0 +1,16 @@
+[Info  - 11:21:18 AM] Pylance language server 2021.12.0 (pyright acfc919d) starting
+[Info  - 11:21:18 AM] Server root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 11:21:18 AM] No configuration file found.
+[Info  - 11:21:18 AM] No pyproject.toml file found.
+[Info  - 11:21:18 AM] Setting pythonPath for service "lemonade-api": "/home/george/Repos/lemonade-api/venv/bin/python"
+[Warn  - 11:21:18 AM] stubPath /home/george/Repos/lemonade-api/typings is not a valid directory.
+[Info  - 11:21:18 AM] Unable to get Python version from interpreter
+[Info  - 11:21:18 AM] Assuming Python platform Linux
+[Info  - 11:21:18 AM] Searching for source files
+[Info  - 11:21:19 AM] Auto-excluding /home/george/Repos/lemonade-api/venv
+[Info  - 11:21:19 AM] Found 421 source files
+[Info  - 11:21:19 AM] Background analysis(1) root directory: /home/george/.vscode/extensions/ms-python.vscode-pylance-2021.12.0/dist
+[Info  - 11:21:19 AM] Background analysis(1) started
+[Info  - 11:21:31 AM] Searching for source files
+[Info  - 11:21:31 AM] Auto-excluding /home/george/Repos/lemonade-api/venv
+[Info  - 11:21:31 AM] Found 442 source files

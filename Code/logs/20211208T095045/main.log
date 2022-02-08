@@ -1,0 +1,10 @@
+[2021-12-08 09:50:45.691] [main] [info] update#setState idle
+[2021-12-08 09:51:15.703] [main] [info] update#setState checking for updates
+[2021-12-08 09:51:16.048] [main] [info] update#setState idle
+[2021-12-08 10:51:15.706] [main] [info] update#setState checking for updates
+[2021-12-08 10:51:16.078] [main] [info] update#setState idle
+[2021-12-08 11:51:15.766] [main] [info] update#setState checking for updates
+[2021-12-08 11:51:45.416] [main] [error] Error: Server returned 500
+    at i (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:32:81648)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-08 11:51:45.416] [main] [info] update#setState idle
