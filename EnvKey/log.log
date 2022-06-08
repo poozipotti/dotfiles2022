@@ -267,3 +267,108 @@
 [2021-12-01 16:41:49.370] [info] Update available.
 [2021-12-01 16:44:06.587] [info] Found version 1.4.20 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.20/EnvKey-1.4.20.AppImage
 [2021-12-01 16:44:06.587] [info] Update available.
+[2022-04-28 10:57:40.467] [info] Found version 1.4.24 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.24/EnvKey-1.4.24.AppImage
+[2022-04-28 10:57:40.469] [info] Update available.
+[2022-04-28 10:57:40.469] [info] Downloading updates from https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.24/EnvKey-1.4.24.AppImage
+[2022-04-28 10:57:40.470] [warn] Cannot write to the directory /usr/bin
+[2022-04-28 10:57:40.471] [error] Cannot write to the directory /usr/bin
+[2022-05-02 10:41:47.843] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 10:41:47.845] [info] Update available.
+[2022-05-02 10:41:47.845] [info] Downloading updates from https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 10:41:47.846] [warn] Cannot write to the directory /usr/bin
+[2022-05-02 10:41:47.846] [error] Cannot write to the directory /usr/bin
+[2022-05-02 10:51:47.782] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 10:51:47.782] [info] Update available.
+[2022-05-02 11:01:47.796] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:01:47.796] [info] Update available.
+[2022-05-02 11:11:47.795] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:11:47.795] [info] Update available.
+[2022-05-02 11:21:47.790] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:21:47.790] [info] Update available.
+[2022-05-02 11:31:47.762] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:31:47.762] [info] Update available.
+[2022-05-02 11:41:47.774] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:41:47.774] [info] Update available.
+[2022-05-02 11:51:47.792] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 11:51:47.792] [info] Update available.
+[2022-05-02 12:01:47.808] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 12:01:47.808] [info] Update available.
+[2022-05-02 12:11:47.878] [info] Found version 1.4.26 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.26/EnvKey-1.4.26.AppImage
+[2022-05-02 12:11:47.878] [info] Update available.
+[2022-05-24 12:01:51.667] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:01:51.668] [info] Update available.
+[2022-05-24 12:01:51.669] [info] Downloading updates from https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:01:51.669] [warn] Cannot write to the directory /usr/bin
+[2022-05-24 12:01:51.669] [error] Cannot write to the directory /usr/bin
+[2022-05-24 12:11:51.574] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:11:51.581] [info] Update available.
+[2022-05-24 12:21:51.584] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:21:51.584] [info] Update available.
+[2022-05-24 12:31:51.633] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:31:51.634] [info] Update available.
+[2022-05-24 12:41:51.558] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:41:51.558] [info] Update available.
+[2022-05-24 12:51:51.612] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 12:51:51.613] [info] Update available.
+[2022-05-24 13:01:51.549] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:01:51.549] [info] Update available.
+[2022-05-24 13:11:51.568] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:11:51.568] [info] Update available.
+[2022-05-24 13:21:51.585] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:21:51.585] [info] Update available.
+[2022-05-24 13:31:51.558] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:31:51.559] [info] Update available.
+[2022-05-24 13:41:51.574] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:41:51.574] [info] Update available.
+[2022-05-24 13:51:51.661] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 13:51:51.661] [info] Update available.
+[2022-05-24 14:01:51.651] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:01:51.651] [info] Update available.
+[2022-05-24 14:11:51.646] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:11:51.647] [info] Update available.
+[2022-05-24 14:21:51.783] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:21:51.783] [info] Update available.
+[2022-05-24 14:31:51.697] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:31:51.697] [info] Update available.
+[2022-05-24 14:41:51.709] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:41:51.709] [info] Update available.
+[2022-05-24 14:51:51.726] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 14:51:51.727] [info] Update available.
+[2022-05-24 15:01:51.738] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:01:51.738] [info] Update available.
+[2022-05-24 15:11:51.755] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:11:51.756] [info] Update available.
+[2022-05-24 15:21:55.812] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:21:55.812] [info] Update available.
+[2022-05-24 15:31:55.824] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:31:55.824] [info] Update available.
+[2022-05-24 15:41:55.918] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:41:55.918] [info] Update available.
+[2022-05-24 15:51:55.924] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 15:51:55.924] [info] Update available.
+[2022-05-24 16:01:56.053] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:01:56.054] [info] Update available.
+[2022-05-24 16:11:56.091] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:11:56.092] [info] Update available.
+[2022-05-24 16:21:56.154] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:21:56.155] [info] Update available.
+[2022-05-24 16:31:56.145] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:31:56.145] [info] Update available.
+[2022-05-24 16:41:56.269] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:41:56.270] [info] Update available.
+[2022-05-24 16:51:56.257] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 16:51:56.257] [info] Update available.
+[2022-05-24 17:01:56.433] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-24 17:01:56.433] [info] Update available.
+[2022-05-27 16:57:30.960] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-27 16:57:30.964] [info] Update available.
+[2022-05-27 16:57:30.965] [info] Downloading updates from https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-27 16:57:30.969] [warn] Cannot write to the directory /usr/bin
+[2022-05-27 16:57:30.971] [error] Cannot write to the directory /usr/bin
+[2022-05-27 17:07:30.860] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-27 17:07:30.861] [info] Update available.
+[2022-05-31 16:38:07.141] [info] Found version 1.4.27 at https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-31 16:38:07.144] [info] Update available.
+[2022-05-31 16:38:07.144] [info] Downloading updates from https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.4.27/EnvKey-1.4.27.AppImage
+[2022-05-31 16:38:07.147] [warn] Cannot write to the directory /usr/bin
+[2022-05-31 16:38:07.148] [error] Cannot write to the directory /usr/bin

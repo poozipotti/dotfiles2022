@@ -5,8 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'puremourning/vimspector'
 " nice formatter
-Plug 'sbdchd/neoformat'
-" really nice git stuff on the side
+Plug 'sbdchd/neoformat' " really nice git stuff on the side
 Plug 'airblade/vim-gitgutter'
 
 " we all know this guy, fuzzy search
@@ -19,6 +18,16 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " ranger intergration
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
+" haskell
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh'
+    \ }
+" tidal cycles 
+Plug 'tidalcycles/vim-tidal'
+Plug 'davidgranstrom/scnvim', { 'do': {-> scnvim#install() } }
+
+
 
 
 
@@ -138,11 +147,12 @@ let g:ranger_map_keys = 0
 "==============================================
 "             COC Config 
 "==============================================
+
 " coc config
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-tsserver',
-  \ 'coc-python',
+  \ 'coc-pyright',
   \ 'coc-eslint', 
   \ 'coc-prettier', 
   \ 'coc-json', 
@@ -151,6 +161,16 @@ let g:coc_global_extensions = [
 let g:coc_filetype_map = {
 \ 'js': 'javascriptreact',
 \ }
+
+"haskell config
+set rtp+=~/.vim/pack/XXX/start/LanguageClient-neovim
+let g:LanguageClient_serverCommands = { 'haskell': ['haskell-language-server-wrapper', '--lsp'] }
+" more haskell config might mess up other stuff
+hi link ALEError Error
+hi Warning term=underline cterm=underline ctermfg=Yellow gui=undercurl guisp=Gold
+hi link ALEWarning Warning
+hi link ALEInfo SpellCap
+
 " from readme
 " if hidden is not set, TextEdit might fail.
 set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup " Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
@@ -200,9 +220,20 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 
 "==============================================
+"               TIDAL
+"==============================================
+" use neovim's own terminal instead of tmux:
+let g:tidal_target = "terminal"
+
+
+
+"==============================================
 "               KEYMAPS
 "==============================================
 let mapleader="\<Space>"
+
+" lets u escape terminal mode
+" tnoremap <Esc> <C-\><C-n>
 
 nnoremap <silent> <C-p> :call fzf#vim#files('.', {'options': '--prompt ""'})<CR>
 nnoremap <silent> <C-f> :call RipgrepFzf("",0)<CR>

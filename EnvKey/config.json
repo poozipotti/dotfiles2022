@@ -9,17 +9,17 @@
 		"auth": {
 			"slug": "george-beckert",
 			"id": "f06529c5-4ab4-4ee6-b3d2-bb85d1209078",
-			"access-token": "xlfivQsbSEOV6RSNpCWRjA",
+			"access-token": "aJUGynjRqRWTJ_PqjxEUlw",
 			"uid": "george@mighty.business",
-			"client": "2r3U32dTzm5xmT7cxBn81g"
+			"client": "Xkxpy363QkqfjOwlc36_iw"
 		},
 		"accounts": {
 			"f06529c5-4ab4-4ee6-b3d2-bb85d1209078": {
 				"slug": "george-beckert",
 				"id": "f06529c5-4ab4-4ee6-b3d2-bb85d1209078",
-				"access-token": "xlfivQsbSEOV6RSNpCWRjA",
+				"access-token": "aJUGynjRqRWTJ_PqjxEUlw",
 				"uid": "george@mighty.business",
-				"client": "2r3U32dTzm5xmT7cxBn81g"
+				"client": "Xkxpy363QkqfjOwlc36_iw"
 			}
 		},
 		"currentOrgSlug": "mighty"

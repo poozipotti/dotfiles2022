@@ -1,3 +1,8 @@
-2021/12/01-09:14:23.460 3be6 Reusing MANIFEST /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/12/01-09:14:23.460 3be6 Recovering log #3
-2021/12/01-09:14:23.461 3be6 Reusing old log /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2022/06/06-15:01:21.534 f678 Reusing MANIFEST /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/06-15:01:21.535 f678 Recovering log #136
+2022/06/06-15:01:21.539 f678 Reusing old log /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000136.log 
+2022/06/06-15:01:21.539 f678 Delete type=2 #134
+2022/06/06-15:01:21.539 f678 Delete type=2 #137
+2022/06/06-15:01:47.346 f63f Level-0 table #141: started
+2022/06/06-15:01:47.364 f63f Level-0 table #141: 1916422 bytes OK
+2022/06/06-15:01:47.371 f63f Delete type=0 #136

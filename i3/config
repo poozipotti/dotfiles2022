@@ -2,10 +2,12 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # set desktop background
-exec --no-startup-id feh --no-fehbg --bg-scale ~/Pictures/Wallpapers/Max-Schreck-Nosferatu-Murnau-FW.jpg
+exec --no-startup-id feh --no-fehbg --bg-scale ~/Pictures/Wallpapers/an-american-werewolf-in-london.png
 
 # start compositor
 exec --no-startup-id picom
+# breaks something
+# exec --no-startup-id xss-lock -- dm-tool lock
 
 
 
@@ -23,10 +25,6 @@ default_floating_border normal
 
 # Hide borders
 hide_edge_borders none
-
-# change bordersj
-bindsym $mod+y border pixel 1
-bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -59,8 +57,8 @@ bindsym $mod+Shift+m exec xdotool search --name "Mixer" windowclose;exec st -T '
 
 exec --no-startup-id volumeicon
 bindsym $mod+Ctrl+m exec i3-sensible-terminal -e 'alsamixer'
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset master 10%+ #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset master 10%+ #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 3 +10% && dunstify  "volume:$(amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }')" -r 5005
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 3 -10% && dunstify  "volume:$(amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }')" -r 5005
 
 ################################################################################################
 
@@ -69,8 +67,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset master 10
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
-bindsym $mod+Ctrl+b exec i3-sensible-terminal -e 'bmenu'
-bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png
+bindsym $mod+0 exec --no-startup-id scrot ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send "screenshot taken ~/Pictures/Screenshots/$(date +%Y-%m-%d-%T)-screenshot.png"
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 
@@ -195,10 +192,11 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Set shut down, restart and locking features
 bindsym $mod+Shift+0 mode "$mode_system"
-set $mode_system (l)ock, (r)eboot, (Shift+s)hutdown
+set $mode_system (l)ock, (r)eboot,(s)uspend, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id dm-tool lock
     bindsym r exec --no-startup-id reboot
+    bindsym s exec --no-startup-id systemctl suspend
     bindsym Shift+s exec --no-startup-id shutdown now
 
     # exit system mode: "Enter" or "Escape"
@@ -256,7 +254,35 @@ bar {
     active_workspace   #1f222d00 #81a1c122    #5e81ac
     inactive_workspace #1f222d00 #81a1c122    #4c566a
     urgent_workspace   #1f222d00 #81a1c122    #ee829f
-    binding_mode       #1f222d00 #81a1c122    #2e3440
+    binding_mode       #1f222d00 #81a1c122    #EBCB8B
+  }
+}
+bar {
+	i3bar_command i3bar --transparency
+	position top
+  output nonprimary
+  mode hide
+  modifier $mod
+
+
+## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+#	tray_output primary
+#	tray_output eDP1
+
+	bindsym button4 nop
+	bindsym button5 nop
+	strip_workspace_numbers yes
+
+  colors {
+    background #1f222d00
+    statusline #81a1c1
+
+    #                   border  background text
+    focused_workspace  #1f222d #1f222d    #81a1c1
+    active_workspace   #1f222d #252936    #5e81ac
+    inactive_workspace #1f222d #1f222d    #4c566a
+    urgent_workspace   #1f222d #1f222d    #ee829f
+    binding_mode       #1f222d #81a1c1    #2e3440
   }
 }
 

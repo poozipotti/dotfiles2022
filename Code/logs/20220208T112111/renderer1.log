@@ -1,7 +1,0 @@
-[2022-02-08 11:21:13.041] [renderer1] [info] IExtensionHostStarter.start() took 25 ms.
-[2022-02-08 11:21:13.408] [renderer1] [error] [Extension Host] (node:3025) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2022-02-08 11:21:13.807] [renderer1] [warning] No search provider registered for scheme: file, waiting
-[2022-02-08 11:21:21.634] [renderer1] [error] XHR failed: Download: XHR failed
-    at D.downloadInstallableExtension (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:222490)
-    at async D.doRun (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:221269)

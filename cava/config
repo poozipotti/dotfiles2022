@@ -4,10 +4,10 @@
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
-; mode = normal
+; mode = waves
 
 # Accepts only non-negative values.
-; framerate = 60
+; framerate = 100
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -24,6 +24,10 @@
 ; bars = 0
 ; bar_width = 2
 ; bar_spacing = 1
+
+# For SDL width and space between bars is in pixels, defaults are:
+; bar_width = 20
+; bar_spacing = 5
 
 
 # Lower and higher cutoff frequencies for lowest and highest bars
@@ -56,15 +60,32 @@
 ; method = pulse
 ; source = auto
 
+; method = alsa
+; source = hw:Loopback,1
+
+; method = fifo
+; source = /tmp/mpd.fifo
+; sample_rate = 44100
+; sample_bits = 16
+
+; method = shmem
+; source = /squeezelite-AA:BB:CC:DD:EE:FF
+
+; method = portaudio
+; source = auto
+
+
 [output]
 
-# Output method. Can be 'ncurses', 'noncurses' or 'raw'.
-# 'noncurses' uses a custom framebuffer technique and draws only changes
-# from frame to frame. 'ncurses' is default if supported
+# Output method. Can be 'ncurses', 'noncurses', 'raw' or 'sdl'.
+# 'noncurses' uses a custom framebuffer technique and prints only changes
+# from frame to frame in the terminal. 'ncurses' is default if supported.
 #
 # 'raw' is an 8 or 16 bit (configurable via the 'bit_format' option) data
 # stream of the bar heights that can be used to send to other applications.
 # 'raw' defaults to 200 bars, which can be adjusted in the 'bars' option above.
+#
+# 'sdl' uses the Simple DirectMedia Layer to render in a graphical context.
 ; method = ncurses
 
 # Visual channels. Can be 'stereo' or 'mono'.
@@ -91,7 +112,11 @@
 ; bar_delimiter = 59
 ; frame_delimiter = 10
 
-
+# sdl window size and position. -1,-1 is centered.
+; sdl_width = 1000
+; sdl_height = 500
+; sdl_x = -1
+; sdl_y= -1
 
 [color]
 
@@ -103,10 +128,15 @@
 ; background = default
 ; foreground = default
 
+# SDL only support hex code colors, these are the default:
+; background = '#111111'
+; foreground = '#33cccc'
+
+
 # Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
 # background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-; gradient = 1
+; gradient = 0
 ; gradient_count = 8
 ; gradient_color_1 = '#59cc33'
 ; gradient_color_2 = '#80cc33'

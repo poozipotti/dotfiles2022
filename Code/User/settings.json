@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Nord",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -7,5 +7,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "extensions.ignoreRecommendations": true
 }

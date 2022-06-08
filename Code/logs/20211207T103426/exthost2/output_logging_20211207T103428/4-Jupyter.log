@@ -1,5 +1,0 @@
-Info 2021-12-07 10:34:28: Experimentation service retrieved: [object Object]
-User belongs to experiment group 'jupyterTest'
-User belongs to experiment group 'jupyterEnhancedDataViewer'
-Info 2021-12-07 10:34:28: ZMQ install verified.
-Info 2021-12-07 10:34:29: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}

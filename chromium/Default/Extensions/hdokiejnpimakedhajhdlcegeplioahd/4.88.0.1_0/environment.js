@@ -1,1 +1,0 @@
-var Environment={version:"4.88.0.1",environment:"prod",lastpass_url:"https://lastpass.com/"};

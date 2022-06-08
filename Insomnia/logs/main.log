@@ -1,18 +1,28 @@
-[2021-09-23 14:05:30.069] [info]  Running version 2021.4.1
-[2021-09-23 14:05:30.084] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
-[2021-09-23 14:05:30.097] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
-[2021-09-23 14:05:30.199] [error] [electron client protocol] the default application set for 'insomnia://' was not found
-[2021-09-23 14:05:30.388] [info]  [fix] Running database repairs
-[2021-09-23 14:05:30.455] [info]  [db] Initialized DB at /home/george/.config/Insomnia/insomnia.$TYPE.db
-[2021-09-23 14:05:30.455] [info]  [db] Init responses DB
-[2021-09-23 14:05:30.458] [info]  [localstorage] Initialized at /home/george/.config/Insomnia/localStorage
-[2021-09-23 14:05:30.624] [info]  [main] Loading file:///tmp/.mount_InsomnaobixY/resources/app.asar/renderer.html
-[2021-09-23 14:05:30.648] [info]  [ga] Non-interactive General, Launched, 2021.4.1
-[2021-09-23 14:05:30.661] [info]  [ga] Queued event [
+[2022-04-26 16:50:30.598] [info]  Running version 2021.4.1
+[2022-04-26 16:50:30.618] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2022-04-26 16:50:30.636] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2022-04-26 16:50:30.753] [error] [electron client protocol] the default application set for 'insomnia://' was not found
+[2022-04-26 16:50:30.933] [info]  [fix] Running database repairs
+[2022-04-26 16:50:30.990] [info]  [db] Initialized DB at /home/george/.config/Insomnia/insomnia.$TYPE.db
+[2022-04-26 16:50:30.991] [info]  [db] Init responses DB
+[2022-04-26 16:50:31.003] [info]  [localstorage] Initialized at /home/george/.config/Insomnia/localStorage
+[2022-04-26 16:50:31.163] [info]  [main] Loading file:///tmp/.mount_InsomnI6h6PE/resources/app.asar/renderer.html
+[2022-04-26 16:50:31.179] [info]  [ga] Non-interactive General, Launched, 2021.4.1
+[2022-04-26 16:50:31.196] [info]  [ga] Queued event [
   { name: 't', value: 'event' },
   { name: 'ec', value: 'General' },
   { name: 'ea', value: 'Launched' },
   { name: 'ni', value: '1' },
   { name: 'el', value: '2021.4.1' }
 ]
-[2021-09-23 14:05:31.149] [info]  [updater] Updater not running platform=linux dev=false
+[2022-04-26 16:50:31.680] [info]  [updater] Updater not running platform=linux dev=false
+[2022-04-26 17:06:14.418] [info]  [response] Delete timeline /home/george/.config/Insomnia/responses/3f0eb0ac654527e3b9f39dfc2257a13c8a6b30e3.timeline
+[2022-04-26 17:06:14.419] [info]  [response] Delete body /home/george/.config/Insomnia/responses/db50a302-bde9-4d03-90f8-110ae27bdd79.response
+[2022-04-26 17:06:28.164] [info]  [response] Delete body 
+[2022-04-26 17:06:28.164] [info]  [response] Delete timeline /home/george/.config/Insomnia/responses/5ddbcaa4e46728b0065e306cea300a5f2cec3510.timeline
+[2022-04-26 17:06:29.646] [info]  [response] Delete body /home/george/.config/Insomnia/responses/50d4e2da-beb9-4592-9d97-80707c032d6f.response
+[2022-04-26 17:06:29.647] [info]  [response] Delete timeline /home/george/.config/Insomnia/responses/ab9faa6a4072ec2e117e8375fc905742dbabe6c2.timeline
+[2022-04-26 17:07:04.481] [info]  [response] Delete body /home/george/.config/Insomnia/responses/2905655b-13d5-4bac-a6a3-125fe3edb4e9.response
+[2022-04-26 17:07:04.488] [info]  [response] Delete timeline /home/george/.config/Insomnia/responses/aaeca1f4d1f389a5cbf543574f6f430386baea17.timeline
+[2022-04-26 17:07:18.781] [info]  [response] Delete timeline /home/george/.config/Insomnia/responses/2e997db53b1bdf7bd795e4e78a3a84699451db88.timeline
+[2022-04-26 17:07:18.781] [info]  [response] Delete body /home/george/.config/Insomnia/responses/214359da-014d-466c-a978-ecba3fd88ccd.response
