@@ -1,4 +1,0 @@
-python.setInterpreter
-python.setLinter
-editor.action.organizeImport
-eslint.showOutputChannel

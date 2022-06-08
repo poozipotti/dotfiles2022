@@ -1,6 +1,0 @@
-2021/12/07-12:00:41.143 116c5 Creating DB /home/george/.config/chromium/Default/IndexedDB/https_techloot.co.uk_0.indexeddb.leveldb since it was missing.
-2021/12/07-12:00:41.159 116c5 Reusing MANIFEST /home/george/.config/chromium/Default/IndexedDB/https_techloot.co.uk_0.indexeddb.leveldb/MANIFEST-000001
-2021/12/07-12:01:17.742 116c5 Level-0 table #5: started
-2021/12/07-12:01:17.746 116c5 Level-0 table #5: 2429 bytes OK
-2021/12/07-12:01:17.750 116c5 Delete type=0 #3
-2021/12/07-12:01:17.750 116c5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

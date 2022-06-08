@@ -1,9 +1,0 @@
-2022/06/07-14:27:30.359 dd25 Reusing MANIFEST /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/07-14:27:30.359 dd25 Recovering log #140
-2022/06/07-14:27:30.360 dd25 Reusing old log /home/george/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000140.log 
-2022/06/07-14:27:32.841 e041 Compacting 1@1 + 1@2 files
-2022/06/07-14:27:32.849 e041 Generated table #143@1: 293 keys, 361609 bytes
-2022/06/07-14:27:32.849 e041 Compacted 1@1 + 1@2 files => 361609 bytes
-2022/06/07-14:27:32.853 e041 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/06/07-14:27:32.853 e041 Delete type=2 #138
-2022/06/07-14:27:32.853 e041 Delete type=2 #141

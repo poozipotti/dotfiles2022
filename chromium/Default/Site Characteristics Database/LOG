@@ -1,4 +1,0 @@
-2022/06/08-10:25:56.188 9d9 Reusing MANIFEST /home/george/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
-2022/06/08-10:25:56.188 9d9 Recovering log #3
-2022/06/08-10:25:56.190 9d9 (ignoring error) /home/george/.config/chromium/Default/Site Characteristics Database/000003.log: dropping 55 bytes; Corruption: missing start of fragmented record(2)
-2022/06/08-10:25:56.191 9d9 Reusing old log /home/george/.config/chromium/Default/Site Characteristics Database/000003.log 
