@@ -1,2 +1,0 @@
-2021/08/26-10:22:38.505 3ff0 Creating DB /home/george/.config/Cypress/cy/production/browsers/chromium-stable/interactive/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb since it was missing.
-2021/08/26-10:22:38.522 3ff0 Reusing MANIFEST /home/george/.config/Cypress/cy/production/browsers/chromium-stable/interactive/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
