@@ -74,7 +74,7 @@ set number
 set nowrap
 set smarttab
 set cindent
-et tabstop=2
+set tabstop=2
 set shiftwidth=2
 
 set hlsearch
@@ -110,7 +110,7 @@ colorscheme everforest
 "==============================================
 set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
 let $FZF_DEFAULT_COMMAND='fd --type f'
-let $FZF_DEFAULT_OPTS=' --color=light --color=fg:-1,hl:6,fg+:#ffffff,bg+:0,hl+:14 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
+let $FZF_DEFAULT_OPTS=' --color=light --color=fg:-1,hl:6,fg+:#ffffff,bg+:0,hl+:14 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=0,0'
 let g:fzf_layout = { 'window': 'call FloatingFZF()' }
  
 function! FloatingFZF()
