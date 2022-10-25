@@ -16,3 +16,162 @@
 
 # 2021-08-18 14:29:46.378678
 +exit
+
+# 2022-06-14 12:32:58.376314
++tables
+
+# 2022-06-14 12:33:06.420146
++select * from email_record
+
+# 2022-06-14 12:33:18.493112
++select * from shop_product
+
+# 2022-06-14 12:33:28.735960
++/h
+
+# 2022-06-14 12:33:30.166057
++help
+
+# 2022-06-14 12:33:34.802920
++\?
+
+# 2022-06-14 12:33:42.409923
++\dt 
+
+# 2022-06-14 12:35:03.905899
++quit
+
+# 2022-06-14 12:35:21.787182
++\t
+
+# 2022-06-14 12:35:23.428865
++\T
+
+# 2022-06-14 12:35:28.391962
++\?
+
+# 2022-06-14 12:35:33.397823
++\dt
+
+# 2022-06-14 12:35:47.271725
++quit
+
+# 2022-06-14 12:37:58.341071
++\dt
+
+# 2022-06-14 12:38:06.695475
++select * from platform_product_price
+
+# 2022-06-14 12:49:10.788190
++quit
+
+# 2022-07-06 16:19:35.008445
++SELECT * FROM public.product | less LIMIT 2
+
+# 2022-07-06 16:19:40.920713
++SELECT * FROM public.product LIMIT 2
+
+# 2022-07-06 16:20:10.549775
++SELECT id,name FROM public.product LIMIT 2
+
+# 2022-07-12 12:07:04.470146
++SELECT * from reaction
+
+# 2022-07-12 12:07:14.082378
++SELECT id from reaction
+
+# 2022-07-12 12:07:46.296867
++\?
+
+# 2022-07-12 12:08:28.783325
++SELECT id from reaction >> 
+
+# 2022-07-12 12:08:31.000325
++SELECT id from reaction 
+
+# 2022-07-27 15:52:41.761061
++select * from invoice
+
+# 2022-07-27 15:55:01.882962
++select * from invoice_sku
+
+# 2022-07-27 15:55:31.650307
++describe invoice_vendor_ref
+
+# 2022-07-27 15:58:54.023616
++select * from invoice
+
+# 2022-07-28 10:34:45.891804
++sele
+
+# 2022-07-28 10:34:53.705339
++select * from eternia_user
+
+# 2022-07-28 10:42:30.644175
++exit
+
+# 2022-09-06 11:39:04.770363
++select * from design
+
+# 2022-09-06 11:39:52.993801
++select * from design where user_id="ol3clo.fzcmpy2"
+
+# 2022-09-06 11:40:02.436743
++select * from design 
+
+# 2022-09-06 11:40:09.984687
++select * from design order by created_on
+
+# 2022-09-06 11:40:18.908783
++select * from design order by created_on LIMIT 5
+
+# 2022-09-06 11:40:33.239351
++select * from design order by created_on DESC LIMIT 5
+
+# 2022-09-21 12:17:51.781515
++select * from pla
+
+# 2022-09-21 12:18:02.653786
++select * from platform_product_price
+
+# 2022-10-04 10:54:54.774349
++sele
+
+# 2022-10-04 10:55:03.772384
++select * FROM promotion_code
+
+# 2022-10-04 10:55:08.624387
++select * FROM coupon
+
+# 2022-10-04 11:07:44.468390
++select * FROM promotion_code
+
+# 2022-10-04 11:56:56.506357
++select * FROM coupon
+
+# 2022-10-19 17:50:51.466365
++select slug from shop_config
+
+# 2022-10-19 17:51:08.331788
++select slug from shop_config where slug like "test%"
+
+# 2022-10-19 17:51:32.250701
++select slug from shop_config where slug like 'test%'
+
+# 2022-10-19 17:51:37.338857
++select slug from shop_config where slug like 'test-%01'
+
+# 2022-10-19 17:55:58.204558
++select slug from shop_config where slug = 'test'
+
+# 2022-10-19 17:56:20.252606
++select slug from shop_config where slug like 'test-%01' or slug ='test'
+
+# 2022-10-19 18:00:18.237984
++select slug from shop_config where slug like 'test-%01' or slug ='test' order
+
+# 2022-10-19 18:00:21.965559
++select slug from shop_config where slug like 'test-%01' or slug ='test' order by slug
+
+# 2022-10-19 18:00:32.157747
++select slug from shop_config where slug like 'test-%01' or slug ='test' order by slug DESC

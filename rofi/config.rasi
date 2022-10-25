@@ -1,35 +1,37 @@
 * {
-    nord0: #2e3440;
-    nord1: #3b4252;
-    nord2: #434c5e;
-    nord3: #4c566a;
-    nord4: #d8dee9;
-    nord5: #e5e9f0;
-    nord6: #eceff4;
-    nord7: #8fbcbb;
-    nord8: #88c0d0;
-    nord9: #81a1c1;
-    nord10: #5e81ac;
-    nord11: #bf616a;
-    nord12: #d08770;
-    nord13: #ebcb8b;
-    nord14: #a3be8c;
-    nord15: #b48ead;
+    nord0: #34302d;
+    nord1: #f5e7de;
+    nord2: #34302d;
+    nord3: #666661;
+    nord4: #7f7f7a;
+    nord5: #992e2e;
+    nord6: #b23636;
+    nord7: #4c3226;
+    nord8: #664233;
+    nord9: #a67c53;
+    nord10: #bf8f60;
+    nord11: #4c7399;
+    nord12: #5986b2;
+    nord13: #bf9986;
+    nord14: #d9ae98;
+    nord15: #d97742;
+    nord16: #f2854a;
+    nord17: #34302d;
+    nord18: #4c4742;
 
     spacing: 2;
-    background-color: var(nord1);
 
 
-    font: "FuraCode Nerd Font 24";
-    background: var(nord1);
-    foreground: var(nord4);
+    font: "Unna 24";
+    background: #f5e7deB0;
+    foreground: var(nord0);
 
     normal-background: var(background);
     normal-foreground: var(foreground);
     alternate-normal-background: var(background);
     alternate-normal-foreground: var(foreground);
-    selected-normal-background: var(nord8);
-    selected-normal-foreground: var(background);
+    selected-normal-background: #34302d66;
+    selected-normal-foreground: #f5e7de;
 
     active-background: var(background);
     active-foreground: var(nord10);
@@ -46,13 +48,13 @@
     selected-urgent-foreground: var(background);
 }
 element {
-    padding: 0px 0px 0px 7px;
-    spacing: 5px;
-    border:  0;
-    cursor:  pointer;
+    padding: 3px 0px 4px 30px;
+    margin: 3px 0px 3px 0px;
+    border-radius: 2px;
+    spacing: 20px;
+    border:  2;
 }
 element normal.normal {
-    background-color: var(normal-background);
     text-color: var(normal-foreground);
 }
 element normal.urgent {
@@ -65,7 +67,7 @@ element normal.active {
 }
 element selected.normal {
     background-color: var(selected-normal-background);
-    text-color: var(selected-normal-foreground);
+    text-color: var(nord1);
 }
 element selected.urgent {
     background-color: var(selected-urgent-background);
@@ -101,12 +103,13 @@ element-icon {
 }
 window {
     padding: 0;
-    border: 0;
-    background-color: var(background);
+    border: 2;
+    border-color: var(nord3);
 }
 mainbox {
     padding: 0;
     border: 0;
+    background-image: url("/home/george/Downloads/flowers.jpg");
 }
 message {
     margin: 0px 7px;
@@ -139,13 +142,16 @@ inputbar {
     padding: 7px;
     margin: 7px;
     spacing: 0;
-    text-color: var(normal-foreground);
-    background-color: var(nord3);
+    text-color: var(nord10);
     children: [ entry ];
 }
 entry {
+    font: "Unna 40";
+    padding: 0px 0px 4px 40px;
     spacing: 0;
     cursor: text;
-    text-color: var(normal-foreground);
-    background-color: var(nord3);
+    border-radius: 2px;
+    border: 2;
+    text-color:  #34302d;
+    background-color:var(selected-normal-foreground);
 }

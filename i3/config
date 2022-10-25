@@ -2,12 +2,14 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # set desktop background
-exec --no-startup-id feh --no-fehbg --bg-scale ~/Pictures/Wallpapers/an-american-werewolf-in-london.png
+exec --no-startup-id feh --no-fehbg --bg-center ~/Pictures/Wallpapers/buckeroo.png
 
 # start compositor
 exec --no-startup-id picom
 # breaks something
 # exec --no-startup-id xss-lock -- dm-tool lock
+
+exec_always --no-startup-id ~/.config/i3/polybar.sh &
 
 
 
@@ -34,16 +36,13 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st 
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start program launcher
 bindsym $mod+d exec --no-startup-id rofi -show run 
-
-# layout save/load
-bindsym $mod+Shift+d exec --no-startup-id i3-layout-manager
 
 #mixer 
 # start mixer
@@ -231,7 +230,7 @@ mode "resize" {
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
-	i3bar_command i3bar --transparency
+	i3bar_command i3bar 
   status_command i3status
 	position top
   output primary
@@ -248,6 +247,8 @@ bar {
     separator  #1f222d
     background #1f222dAA
     statusline #81a1c1
+    background #34302D
+    statusline #81a1c1
 
     #                   border  background text
     focused_workspace  #1f222d00 #81a1c155   #81a1c1
@@ -258,7 +259,7 @@ bar {
   }
 }
 bar {
-	i3bar_command i3bar --transparency
+	i3bar_command i3bar 
 	position top
   output nonprimary
   mode hide
@@ -274,7 +275,7 @@ bar {
 	strip_workspace_numbers yes
 
   colors {
-    background #1f222d00
+    background #34302D
     statusline #81a1c1
 
     #                   border  background text
@@ -290,7 +291,7 @@ bar {
  bindsym $mod+m bar mode toggle
 
 # Theme colors
-# class                 border  bground text    indicator child_border
+# class                   border  bground text    indicator  child_border
   client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
   client.unfocused        #2e3440 #1f222d #888888 #1f222d
   client.focused_inactive #2e3440 #1f222d #888888 #1f222d

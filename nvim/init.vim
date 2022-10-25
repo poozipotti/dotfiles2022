@@ -40,7 +40,9 @@ Plug 'davidgranstrom/scnvim', { 'do': {-> scnvim#install() } }
 " Plug 'drewtempelmeyer/palenight.vim'
 " draculaPlug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 "  Plug 'dracula/vim'
-  Plug 'arcticicestudio/nord-vim'
+Plug 'sainnhe/everforest'
+Plug 'sheerun/vim-polyglot'
+
 
 
 
@@ -49,6 +51,8 @@ Plug 'davidgranstrom/scnvim', { 'do': {-> scnvim#install() } }
 "==============================================
 "              SYNTAX HIGHLIGHTING 
 "==============================================
+"
+Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'maxmellon/vim-jsx-pretty' " JSX Syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} "Python syntax
@@ -61,6 +65,7 @@ call plug#end()
 "==============================================
 "              VIM SETTINGS 
 "==============================================
+
 set wildmode=list:longest,list:full
 
 set relativenumber
@@ -69,20 +74,34 @@ set number
 set nowrap
 set smarttab
 set cindent
-set tabstop=2
+et tabstop=2
 set shiftwidth=2
 
 set hlsearch
 set incsearch
 " always uses spaces instead of tab characters
 set expandtab
-set background=dark
+set clipboard=unnamedplus
 
-set termguicolors
-color nord
+" set termguicolors
 " clear background
- hi Normal guibg=NONE ctermbg=NONE 
+"set background=light
+"let g:vim_jsx_pretty_colorful_config = 1 " default 0
+"hi NormalFloat ctermfg=13 ctermbg=4
+"
+" Important!!
+if has('termguicolors')
+  set termguicolors
+endif
 
+set background=light
+" Set contrast.
+" This configuration option should be placed before `colorscheme everforest`.
+" Available values: 'hard', 'medium'(default), 'soft'
+let g:everforest_background = 'soft'
+" For better performance
+let g:everforest_better_performance = 1
+colorscheme everforest
 
 
 
@@ -91,14 +110,14 @@ color nord
 "==============================================
 set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
 let $FZF_DEFAULT_COMMAND='fd --type f'
-let $FZF_DEFAULT_OPTS=' --color=light --color=fg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
+let $FZF_DEFAULT_OPTS=' --color=light --color=fg:-1,hl:6,fg+:#ffffff,bg+:0,hl+:14 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
 let g:fzf_layout = { 'window': 'call FloatingFZF()' }
  
 function! FloatingFZF()
   let buf = nvim_create_buf(v:false, v:true)
   call setbufvar(buf, '&signcolumn', 'no')
  
-  let height = float2nr(20)
+  let height = float2nr(50)
   let width = float2nr(160)
   let horizontal = float2nr((&columns - width) / 2)
   let vertical = 1
@@ -109,9 +128,10 @@ function! FloatingFZF()
         \ 'col': horizontal,
         \ 'width': width,
         \ 'height': height,
-        \ 'style': 'minimal'
+        \ 'style': 'minimal',
+        \ 'border': 'double',
         \ }
- 
+   
   call nvim_open_win(buf, v:true, opts)
 endfunction
 
@@ -120,7 +140,7 @@ function! RipgrepFzf(query, fullscreen)
   let initial_command = printf(command_fmt, shellescape(a:query))
   let reload_command = printf(command_fmt, '{q}')
   let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
-  call fzf#vim#grep(initial_command, 1, a:fullscreen)
+  call fzf#vim#grep(initial_command, 1,fzf#vim#with_preview(), a:fullscreen)
 endfunction
 
 command! -nargs=* -bang RG call RipgrepFzf(<q-args>,<bang>0)
@@ -199,8 +219,6 @@ function! s:show_documentation()
   endif
 endfunction
 
-" Highlight symbol under cursor on CursorHold
-autocmd CursorHold * silent call CocActionAsync('highlight')
 
 
 augroup mygroup
@@ -234,6 +252,7 @@ let mapleader="\<Space>"
 
 " lets u escape terminal mode
 " tnoremap <Esc> <C-\><C-n>
+nnoremap <silent> <C-f> :call RipgrepFzf("",0)<CR>
 
 nnoremap <silent> <C-p> :call fzf#vim#files('.', {'options': '--prompt ""'})<CR>
 nnoremap <silent> <C-f> :call RipgrepFzf("",0)<CR>
@@ -242,18 +261,13 @@ inoremap jk <ESC>
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+  inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 " Or use `complete_info` if your vim support it, like:
 " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
+"
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
