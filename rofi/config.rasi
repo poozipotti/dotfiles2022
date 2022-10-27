@@ -1,37 +1,37 @@
 * {
-    nord0: #34302d;
-    nord1: #f5e7de;
-    nord2: #34302d;
-    nord3: #666661;
-    nord4: #7f7f7a;
-    nord5: #992e2e;
-    nord6: #b23636;
-    nord7: #4c3226;
-    nord8: #664233;
-    nord9: #a67c53;
-    nord10: #bf8f60;
-    nord11: #4c7399;
-    nord12: #5986b2;
-    nord13: #bf9986;
-    nord14: #d9ae98;
-    nord15: #d97742;
-    nord16: #f2854a;
-    nord17: #34302d;
-    nord18: #4c4742;
+    nord0: #5c6a72;
+    nord1: #f8f0dc;
+    nord2: #3c474d;
+    nord3: #f85552;
+    nord4: #8da101;
+    nord5: #dfa000;
+    nord6: #3a94c5;
+    nord7: #df69ba;
+    nord8: #35a77c;
+    nord9: #a6b0a0;
+    nord10: #f85552;
+    nord11: #8da101;
+    nord12: #dfa000;
+    nord13: #3a94c5;
+    nord14: #df69ba;
+    nord15: #35a77c;
+    nord16: #939f91;
+    nord17: #939f91;
+    nord18: #939f91;
 
-    spacing: 2;
+    spacing: 0;
 
 
     font: "Unna 24";
-    background: #f5e7deB0;
+    background: #f8f0dcF0;
     foreground: var(nord0);
 
     normal-background: var(background);
     normal-foreground: var(foreground);
     alternate-normal-background: var(background);
     alternate-normal-foreground: var(foreground);
-    selected-normal-background: #34302d66;
-    selected-normal-foreground: #f5e7de;
+    selected-normal-background: #5c6a72A7;
+    selected-normal-foreground: #f8f0dc;
 
     active-background: var(background);
     active-foreground: var(nord10);
@@ -49,9 +49,9 @@
 }
 element {
     padding: 3px 0px 4px 30px;
-    margin: 3px 0px 3px 0px;
+    margin: 0px 0px 0px 0px;
     border-radius: 2px;
-    spacing: 20px;
+    spacing: 0px;
     border:  2;
 }
 element normal.normal {
@@ -109,18 +109,18 @@ window {
 mainbox {
     padding: 0;
     border: 0;
-    background-image: url("/home/george/Downloads/flowers.jpg");
+    background-image: url("/home/george/Pictures/Wallpapers/flower_tile.jpg");
 }
 message {
-    margin: 0px 7px;
+    margin: 0px 0px;
 }
 textbox {
     text-color: var(foreground);
 }
 listview {
-    margin: 0px 0px 5px;
+    margin: 0px 0px 0px;
     scrollbar: true;
-    spacing: 2px;
+    spacing: 0px;
     fixed-height: 0;
 }
 scrollbar {
