@@ -47,6 +47,7 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 for_window [title="Mixer"] move scratchpad; scratchpad show
 bindsym $mod+Shift+m exec xdotool search --name "Mixer" windowclose;exec kitty -T 'Mixer' -e zsh -c "ncpamixer";
 
+focus_wrapping workspace
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
