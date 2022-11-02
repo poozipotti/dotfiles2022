@@ -1,15 +1,13 @@
 # i3 config file (v4)
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-# set desktop background
-exec --no-startup-id feh --no-fehbg --bg-center ~/Pictures/Wallpapers/buckeroo.png
 
 # start compositor
 exec --no-startup-id picom
 # breaks something
 # exec --no-startup-id xss-lock -- dm-tool lock
 
-exec_always --no-startup-id ~/.config/i3/polybar.sh &
+exec_always --no-startup-id "autorandr --change"
 
 
 
@@ -47,7 +45,7 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 #mixer 
 # start mixer
 for_window [title="Mixer"] move scratchpad; scratchpad show
-bindsym $mod+Shift+m exec xdotool search --name "Mixer" windowclose;exec st -T 'Mixer' -e zsh -c "ncpamixer";
+bindsym $mod+Shift+m exec xdotool search --name "Mixer" windowclose;exec kitty -T 'Mixer' -e zsh -c "ncpamixer";
 
 
 ################################################################################################
@@ -55,7 +53,7 @@ bindsym $mod+Shift+m exec xdotool search --name "Mixer" windowclose;exec st -T '
 ################################################################################################
 
 exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec i3-sensible-terminal -e 'alsamixer'
+bindsym $mod+Ctrl+m exec kitty 'alsamixer'
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 3 +10% && dunstify  "volume:$(amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }')" -r 5005
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 3 -10% && dunstify  "volume:$(amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }')" -r 5005
 

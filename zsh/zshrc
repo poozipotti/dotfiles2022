@@ -1,4 +1,4 @@
-# cbonsai -pm "stay safe out there kid"
+cbonsai -pm "stay safe out there kid"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -159,7 +159,6 @@ alias game="~/Downloads/terranil/'Terra Nil.x86_64'"
 alias imhome="xrandr --output DP-1-3 --auto --left-of eDP-1 --primary"
 alias norules="feh --bg-scale ~/Pictures/Wallpapers/barbarella.jpg"
 alias startup="zsh ~/.config/startupScript/startup.sh"
-alias work="xrandr --output HDMI-1 --auto --left-of eDP-1 --primary;feh --bg-center --no-xinerama Pictures/Wallpapers/buckerooflower.png"
 alias debuggers="cd ~/Repos/lemonade; c .; cd ~/Repos/lemonade-api/; c .;"
 alias pgcli="pgcli -h localhost -p 54321 -U lemonade"
 alias treasury="

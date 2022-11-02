@@ -76,8 +76,6 @@ system:
 variables: {}
 version: Latest Self-Updating
 wine:
-  Desktop: true
-  Dpi: false
   dxvk: false
   version: lutris-mtga-5.0-x86_64
 year: 2017
