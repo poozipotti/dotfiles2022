@@ -103,7 +103,10 @@ let g:everforest_background = 'soft'
 let g:everforest_better_performance = 1
 colorscheme everforest
 
-
+"pretty split
+set fillchars+=vert:│
+hi VertSplit ctermbg=NONE guibg=NONE
+set laststatus=3
 
 "==============================================
 "              FZF CONFIG / POPUP
