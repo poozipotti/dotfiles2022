@@ -76,6 +76,10 @@ system:
 variables: {}
 version: Latest Self-Updating
 wine:
-  dxvk: false
+  dxvk: true
+  esync: true
+  fsr: false
+  fsync: false
   version: lutris-mtga-5.0-x86_64
+  vkd3d: true
 year: 2017

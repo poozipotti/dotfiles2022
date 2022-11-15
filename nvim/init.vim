@@ -3,6 +3,10 @@ call plug#begin('~/.vim/plugged')
 
 " inntellisense/language server stuff
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" cool statusline
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+
 Plug 'puremourning/vimspector'
 " nice formatter
 Plug 'sbdchd/neoformat' " really nice git stuff on the side
@@ -288,3 +292,48 @@ nmap <leader>x  :Ranger <CR>
 " open fugitive
 nmap <leader>g  :G <CR>
 
+"==============================================
+"               LUA Line
+"==============================================
+lua << END
+require('lualine').setup {
+  options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '|', right = '|'},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = true,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    }
+  },
+  sections = {
+    lualine_a = {},
+    lualine_b = {'branch','diff'},
+    lualine_c = {'filename'},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {'location'}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {},
+    lualine_x = {'location'},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
+}
+END

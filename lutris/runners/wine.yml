@@ -1,0 +1,5 @@
+system: {}
+wine:
+  Dpi: false
+  dxvk: false
+  vkd3d: false

@@ -7,7 +7,12 @@ exec --no-startup-id picom
 # breaks something
 # exec --no-startup-id xss-lock -- dm-tool lock
 
+
+exec --no-startup-id "xrandr --output DP-2-3 --auto --left-of eDP-1 --primary;"
+exec --no-startup-id "feh --bg-scale --no-xinerama -Z Pictures/Wallpapers/buckerooflower.png"
+
 exec_always --no-startup-id "autorandr --change"
+exec --no-startup-id "~/.config/polybar/launch.sh"
 
 
 
