@@ -251,11 +251,34 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 let g:tidal_target = "terminal"
 
 
+"==============================================
+"               cool splitting
+"==============================================
+" split automatically if window doesn't exist
+function! WinMove(key)
+  let t:curwin = winnr()
+  exec "wincmd ".a:key
+  if (t:curwin == winnr()) "we haven't moved
+    if (match(a:key,'[jk]')+1) "we want to go up/down
+      wincmd s
+    elseif (match(a:key,'[hl]')+1) "we want to go left/right
+      wincmd v
+    endif
+    exec "wincmd ".a:key
+  endif
+endfunction
+"
 
 "==============================================
 "               KEYMAPS
 "==============================================
 let mapleader="\<Space>"
+
+""remap our split keys
+map <C-h> :call WinMove('h')<cr>
+map <C-k> :call WinMove('k')<cr>
+map <C-l> :call WinMove('l')<cr>
+map <C-j> :call WinMove('j')<cr>
 
 " lets u escape terminal mode
 " tnoremap <Esc> <C-\><C-n>
@@ -278,13 +301,9 @@ inoremap jk <ESC>
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
-" Remap for format selected region
-nmap <leader>p  :Neoformat <CR>
 
 " Remap for do diagnotics of current line
 nmap <leader>e  :CocDiagnostics <CR>
-" Fix autofix problem of current line
-nmap <leader>f  <Plug>(coc-fix-current)
 
 " open ranger
 nmap <leader>x  :Ranger <CR>

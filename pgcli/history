@@ -175,3 +175,9 @@
 
 # 2022-10-19 18:00:32.157747
 +select slug from shop_config where slug like 'test-%01' or slug ='test' order by slug DESC
+
+# 2022-11-29 11:07:06.218781
++ls
+
+# 2022-11-29 11:07:24.597010
++select 'test'
