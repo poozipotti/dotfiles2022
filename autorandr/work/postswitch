@@ -1,6 +1,0 @@
-#!/bin/bash
-
-feh --bg-center --no-xinerama Pictures/Wallpapers/buckerooflower.png;
-~/.config/polybar/launch.sh;
-i3-msg '[workspace="^(8|9)"] move workspace to output eDP-1;';
-i3-msg '[workspace="^(1|2|3|4|5|6|7)"] move workspace to output HDMI-1;';

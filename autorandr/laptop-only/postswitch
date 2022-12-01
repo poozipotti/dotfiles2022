@@ -1,4 +1,0 @@
-#!/bin/bash
-
-feh --bg-tile --no-xinerama Pictures/Wallpapers/buckerooflower.png
-~/.config/polybar/launch.sh
