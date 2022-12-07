@@ -71,6 +71,7 @@ call plug#end()
 "==============================================
 
 set wildmode=list:longest,list:full
+set showtabline=0
 
 set relativenumber
 set number
@@ -87,12 +88,6 @@ set incsearch
 set expandtab
 set clipboard=unnamedplus
 
-" set termguicolors
-" clear background
-"set background=light
-"let g:vim_jsx_pretty_colorful_config = 1 " default 0
-"hi NormalFloat ctermfg=13 ctermbg=4
-"
 " Important!!
 if has('termguicolors')
   set termguicolors
@@ -102,7 +97,7 @@ set background=light
 " Set contrast.
 " This configuration option should be placed before `colorscheme everforest`.
 " Available values: 'hard', 'medium'(default), 'soft'
-let g:everforest_background = 'soft'
+let g:everforest_background = 'medium'
 " For better performance
 let g:everforest_better_performance = 1
 colorscheme everforest
@@ -267,7 +262,18 @@ function! WinMove(key)
     exec "wincmd ".a:key
   endif
 endfunction
+"==============================================
+"               Vimspector
+"==============================================
 "
+sign define vimspectorBP            text=\ ☠ texthl=WarningMsg
+sign define vimspectorBPCond        text=\ ☠ texthl=WarningMsg
+sign define vimspectorBPLog         text=\ ☠ texthl=SpellRare
+sign define vimspectorBPDisabled    text=\ ● texthl=LineNr
+sign define vimspectorPC            text=\=> texthl=MatchParen linehl=CursorLine
+sign define vimspectorPCBP          text=☠▶   texthl=MatchParen linehl=CursorLine
+sign define vimspectorCurrentThread text=▶   texthl=MatchParen linehl=CursorLine
+sign define vimspectorCurrentFrame  text=▶   texthl=Special    linehl=CursorLine
 
 "==============================================
 "               KEYMAPS
@@ -312,10 +318,10 @@ nmap <leader>x  :Ranger <CR>
 nmap <leader>g  :G <CR>
 
 "vimspector binds
+"
 nnoremap <Leader>dd :call vimspector#Launch()<CR>
 nnoremap <Leader>dr :call vimspector#Reset()<CR>
 nnoremap <Leader>dc :call vimspector#Continue()<CR>
-
 
 nnoremap <Leader>dt :call vimspector#ToggleBreakpoint()<CR>
 nnoremap <Leader>dT :call vimspector#ClearBreakpoints()<CR>
@@ -348,7 +354,7 @@ require('lualine').setup {
     }
   },
   sections = {
-    lualine_a = {},
+    lualine_a = {'tabs'},
     lualine_b = {'branch','diff'},
     lualine_c = {'filename'},
     lualine_x = {},

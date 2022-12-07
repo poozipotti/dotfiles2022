@@ -181,3 +181,18 @@
 
 # 2022-11-29 11:07:24.597010
 +select 'test'
+
+# 2022-12-07 11:48:23.257477
++select * from 
+
+# 2022-12-07 11:48:29.609527
++select * from platform_product_price
+
+# 2022-12-07 11:48:34.122648
++select * from platform_product
+
+# 2022-12-07 11:56:42.076067
++select * from user_platform_product
+
+# 2022-12-07 11:56:48.096104
++select * from user_platform_product LIMIT 1
