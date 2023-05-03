@@ -137,6 +137,9 @@ bindsym $mod+p scratchpad show
 bindsym $mod+i workspace next
 bindsym $mod+u workspace prev
 
+bindsym $mod+Shift+u move workspace to output left
+bindsym $mod+Shift+i move workspace to output right
+
 # Workspace names
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
@@ -238,11 +241,11 @@ mode "resize" {
  bindsym $mod+m bar mode toggle
 
 # Theme colors
-# class                   border  bground text    indicator  child_border
-  client.focused          #f57d26 #f57d26 #f57d26 #f57d26
-  client.unfocused        #a6b0a0 #a6b0a0 #a6b0a0 #a6b0a0
-  client.focused_inactive #900000 #900000 #900000 #900000
-  client.placeholder      #a6b0a0 #a6b0a0 #a6b0a0 #a6b0a0
-  client.urgent           #f85552 #f85552 #f85552 #f85552
+# class                 border  bground text    indicator child_border
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 
-  client.background       #f85552
+client.background       #F8F8F2

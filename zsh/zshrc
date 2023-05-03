@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export CLOUDINARY_URL='cloudinary://513337578579182:h1nJ6GhvWcgL6sDI6wfHwfzrDjg@mightybusiness'
 # conda config --set auto_activate_base false
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
@@ -136,11 +137,11 @@ start_api_flask () {
 
 #needs work
 alias start-tunnel='ngrok http 127.0.0.1:3000 --hostname "*.mighty.george.ngrok.io" --region us'
+alias start-basic-tunnel='ngrok http localhost:3000 --hostname "mighty.george.ngrok.io" --region us'
 alias start-api-tunnel='ngrok http 127.0.0.1:9000 --hostname=george-webhook.ngrok.io --region us'
 alias start-webhook-tunnel='ngrok http 9000 --hostname=mighty-shopify-webhook.ngrok.io --region us'
 alias start-browserstack-tunnel='ngrok http localhost:3000 --hostname "mighty.george.ngrok.io" --region us'
 alias start-treasury-tunnel='ngrok http localhost:5000 --hostname "george-treasury.ngrok.io" --region us'
-alias envkey='AppImageLauncher ~/Applications/EnvKey-1.4.18_2feb7fedfcb480c238bd357ae8eb8e36.AppImage &;disown;exit'
 alias responsively='./Applications/ResponsivelyApp-0.15.0_f327bdf18c330e49a551b61853b45d95.AppImage '
 alias n="nvim"
 alias c="code ."
@@ -160,9 +161,10 @@ alias cooltree="cbonsai -S -m 'keep it real kid' -L 60"
 alias game="~/Downloads/terranil/'Terra Nil.x86_64'"
 alias imhome="xrandr --output DP-1-3 --auto --left-of eDP-1 --primary"
 alias norules="feh --bg-scale ~/Pictures/Wallpapers/barbarella.jpg"
-alias startup="zsh ~/.config/startupScript/startup.sh"
+alias startup="zsh ~/.config/scripts/startup.sh"
 alias debuggers="cd ~/Repos/lemonade; c .; cd ~/Repos/lemonade-api/; c .;"
 alias pgcli="pgcli -h localhost -p 54321 -U lemonade"
+alias ls="exa"
 alias treasury="
 cd /home/george/Repos/treasury;
 python3 -m venv venv;
@@ -172,7 +174,7 @@ python app.py
 "
 alias nlem="cd ~/Repos/lemonade;nvim -c 'call vimspector#Launch()'"
 alias rlem="docker kill lemonade-flask_server-1 && docker start lemonade-flask_server-1;" 
-alias napi="cd ~/Repos/lemonade-api;nvim"
+alias napi="cd ~/Repos/lemonade-api;nvim -c 'call vimspector#Launch()'"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/george/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/george/Downloads/google-cloud-sdk/path.zsh.inc'; fi
@@ -194,3 +196,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+
+autoload -Uz compinit
+zstyle ':completion:*' menu select
+fpath+=~/.zfunc

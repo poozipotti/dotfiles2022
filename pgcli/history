@@ -196,3 +196,216 @@
 
 # 2022-12-07 11:56:48.096104
 +select * from user_platform_product LIMIT 1
+
+# 2022-12-07 15:26:36.170540
++select * from platform_product
+
+# 2022-12-08 10:56:28.706181
++se
+
+# 2022-12-08 10:56:35.604469
++select * from ete
+
+# 2022-12-08 10:56:40.433312
++select * from eternia_user
+
+# 2022-12-13 10:39:59.672378
++select * from platform_product_price
+
+# 2022-12-13 10:40:47.442924
++select * from platform_product_price join platform_product ON platform_product.id = platform_product_price.platform_product_id
+
+# 2022-12-13 10:41:03.590305
++select * from platform_product_price
+
+# 2022-12-13 14:57:14.230611
++select * from user_platform_product
+
+# 2022-12-13 15:48:56.219522
++exit
+
+# 2023-01-03 13:29:02.785033
++select * from plat
+
+# 2023-01-03 13:29:07.932310
++select * from platform_product_invoice
+
+# 2023-01-03 13:32:15.157278
++select * from user_platform_product
+
+# 2023-01-09 20:40:39.702906
++select * from eternia_user
+
+# 2023-01-09 20:41:13.230237
++select username from eternia_user
+
+# 2023-01-10 15:23:18.672273
++select * from user
+
+# 2023-01-10 15:23:23.567195
++select * from user_platform_product
+
+# 2023-01-10 15:28:16.844465
++selec * from user_platform_product
+
+# 2023-01-10 15:28:20.709975
++select * from user_platform_product
+
+# 2023-01-10 16:05:35.547626
++select * from eternia_user
+
+# 2023-01-10 16:06:49.110648
++select username,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:16:23.603222
++sel
+
+# 2023-01-12 16:16:27.569445
++select username,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:17:16.376034
++select * from user_platform_product
+
+# 2023-01-12 16:24:17.005967
++select username,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:24:37.095807
++select username,name,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:25:22.392944
++select username,name,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id where eternia_user.username="wudynyw"
+
+# 2023-01-12 16:25:27.865783
++select username,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id where eternia_user.username="wudynyw"
+
+# 2023-01-12 16:25:47.006267
++select username,name,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:25:52.407498
++select username,status from user_platform_product join eternia_user ON eternia_user.id = user_platform_product.user_id 
+
+# 2023-01-12 16:35:49.447946
++select * from shop
+
+# 2023-01-12 16:44:15.346815
++describe product
+
+# 2023-01-12 16:44:20.960865
++exit
+
+# 2023-01-13 15:29:38.146146
++select * from eter
+
+# 2023-01-13 15:29:41.067604
++select * from eternia_user
+
+# 2023-01-13 15:30:16.729688
++select username,_parent_email from eternia_user
+
+# 2023-01-13 15:30:30.793994
++select username,_parent_email from eternia_user where username = fixov
+
+# 2023-01-13 15:30:40.004881
++select username,_parent_email from eternia_user where username = 'fixov'
+
+# 2023-01-13 15:40:20.315666
++select username,_parent_email from eternia_user where username = 'takiqi'
+
+# 2023-01-13 16:31:17.748625
++select username,_parent_email from eternia_user where username LIKE '%boss_lover%'
+
+# 2023-01-13 16:36:07.631576
++select username,_parent_email from eternia_user where username LIKE '%boss%'
+
+# 2023-01-26 15:02:29.060704
++select * from product join sku ON sku.product_id = product.id
+
+# 2023-02-01 15:56:56.655240
++select * from shop_config where slug"nazibehaz"
+
+# 2023-02-01 15:57:04.872170
++select * from shop_config where slug='nazibeha'
+
+# 2023-02-01 15:57:12.247249
++select * from shop_config where slug='nazibehaz'
+
+# 2023-02-01 15:57:37.539087
++select * from shop_config join shop ON shop.id = shop_config.shop_id where slug='nazibehaz'
+
+# 2023-02-01 15:57:44.465686
++select shop.is_published from shop_config join shop ON shop.id = shop_config.shop_id where slug='nazibehaz'
+
+# 2023-02-01 15:57:52.368992
++select * from shop_config join shop ON shop.id = shop_config.shop_id where slug='nazibehaz'
+
+# 2023-03-30 11:37:40.796763
++select palette from shop_config
+
+# 2023-03-30 11:37:55.958600
++select palette from shop_config where palette != Null
+
+# 2023-04-03 10:07:09.180946
++select * from shop
+
+# 2023-04-03 10:07:29.730421
++select * from eternia_user 
+
+# 2023-04-03 10:07:57.957648
++exit
+
+# 2023-04-03 10:40:09.842817
++select * from user_profile
+
+# 2023-04-03 10:40:22.850577
++select * from user_profile 
+
+# 2023-04-04 10:55:25.989048
++select * from user_profile where avatar_version LIKE '%Heroes1C.png'
+
+# 2023-04-04 10:55:33.503352
++select avatar_version from user_profile where avatar_version LIKE '%Heroes1C.png'
+
+# 2023-05-03 11:17:59.921149
++exit!
+
+# 2023-05-03 11:20:02.301516
++select * from product_specification
+
+# 2023-05-03 11:20:17.715277
++select id,label from product_specification
+
+# 2023-05-03 11:20:38.079363
++select label,creator_cut from product_specification
+
+# 2023-05-03 11:21:42.081610
++select creator_payout
+
+# 2023-05-03 11:21:51.188839
++select creator_payout from invoice_sku
+
+# 2023-05-03 11:21:59.485678
++select id from invoice_sku
+
+# 2023-05-03 11:22:37.006846
++select * from payout_record 
+
+# 2023-05-03 11:22:52.914979
++select * from payout invoice_sku
+
+# 2023-05-03 11:22:56.518980
++select * from invoice_sku
+
+# 2023-05-03 11:31:41.292785
++select label,creator_cut from product_specification
+
+# 2023-05-03 12:33:11.829368
++select * from product_specification
+
+# 2023-05-03 12:33:16.289230
++select id from product_specification
+
+# 2023-05-03 12:33:25.429373
++delete from product_specification
+
+# 2023-05-03 12:34:09.462242
++exit

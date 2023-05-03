@@ -10,7 +10,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'puremourning/vimspector'
 " nice formatter
 Plug 'sbdchd/neoformat' " really nice git stuff on the side
-Plug 'airblade/vim-gitgutter'
+Plug 'lewis6991/gitsigns.nvim'
 
 " we all know this guy, fuzzy search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -32,26 +32,6 @@ Plug 'tidalcycles/vim-tidal'
 Plug 'davidgranstrom/scnvim', { 'do': {-> scnvim#install() } }
 
 
-
-
-
-"==============================================
-"               COLOR SCHEMES
-"==============================================
-"
-" Plug 'morhetz/gruvbox'
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'drewtempelmeyer/palenight.vim'
-" draculaPlug 'pineapplegiant/spaceduck', { 'branch': 'main' }
-"  Plug 'dracula/vim'
-Plug 'sainnhe/everforest'
-Plug 'sheerun/vim-polyglot'
-
-
-
-
-
-
 "==============================================
 "              SYNTAX HIGHLIGHTING 
 "==============================================
@@ -62,8 +42,47 @@ Plug 'maxmellon/vim-jsx-pretty' " JSX Syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} "Python syntax
 
 
+
+"==============================================
+"               COLOR SCHEMES and THEMING
+"==============================================
+"
+" Plug 'morhetz/gruvbox'
+" Plug 'lifepillar/vim-solarized8'
+" Plug 'drewtempelmeyer/palenight.vim'
+" draculaPlug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+"  Plug 'dracula/vim'
+"Plug 'sainnhe/everforest'
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+Plug 'sheerun/vim-polyglot'
+
 " Initialize plugin system
 call plug#end()
+
+" Important!!
+if has('termguicolors')
+  set termguicolors
+endif
+
+
+" must be before setting your colorscheme
+augroup nosplit | au!
+    autocmd ColorScheme * hi VertSplit ctermfg=NONE ctermbg=NONE 
+augroup end
+
+" Set contrast.
+hi Normal guibg=NONE ctermbg=NONE
+colorscheme dracula
+
+
+"pretty split
+set laststatus=3
+
+
+
+
+
 
 
 "==============================================
@@ -88,24 +107,7 @@ set incsearch
 set expandtab
 set clipboard=unnamedplus
 
-" Important!!
-if has('termguicolors')
-  set termguicolors
-endif
 
-set background=light
-" Set contrast.
-" This configuration option should be placed before `colorscheme everforest`.
-" Available values: 'hard', 'medium'(default), 'soft'
-let g:everforest_background = 'medium'
-" For better performance
-let g:everforest_better_performance = 1
-colorscheme everforest
-
-"pretty split
-set fillchars+=vert:│
-hi VertSplit ctermbg=NONE guibg=NONE
-set laststatus=3
 
 "==============================================
 "              FZF CONFIG / POPUP
@@ -331,8 +333,32 @@ nmap <Leader>dl <Plug>VimspectorStepInto
 nmap <Leader>dj <Plug>VimspectorStepOver
 
 "==============================================
+"               gitsigns
+"==============================================
+"
+
+lua << GEND
+require('gitsigns').setup {
+  on_attach = function(bufnr)
+    local gs = package.loaded.gitsigns
+
+    local function map(mode, l, r, opts)
+      opts = opts or {}
+      opts.buffer = bufnr
+      vim.keymap.set(mode, l, r, opts)
+    end
+
+    -- Actions
+    map({'n', 'v'}, '<leader>hu', ':Gitsigns reset_hunk<CR>')
+    map('n', '<leader>hp', gs.preview_hunk)
+  end
+}
+GEND
+
+"==============================================
 "               LUA Line
 "==============================================
+"
 lua << END
 require('lualine').setup {
   options = {
@@ -375,3 +401,4 @@ require('lualine').setup {
   extensions = {}
 }
 END
+
