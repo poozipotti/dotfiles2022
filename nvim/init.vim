@@ -1,6 +1,5 @@
-" Specify a directory for plugins
+" Specify a directory for plugins call plug#begin('~/.vim/plugged')
 call plug#begin('~/.vim/plugged')
-
 " inntellisense/language server stuff
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " cool statusline
@@ -8,8 +7,6 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 
 Plug 'puremourning/vimspector'
-" nice formatter
-Plug 'sbdchd/neoformat' " really nice git stuff on the side
 Plug 'lewis6991/gitsigns.nvim'
 
 " we all know this guy, fuzzy search
@@ -17,8 +14,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " git client in vim
 Plug 'tpope/vim-fugitive'
-" prettier integration
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " ranger intergration
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
@@ -27,9 +22,6 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh'
     \ }
-" tidal cycles 
-Plug 'tidalcycles/vim-tidal'
-Plug 'davidgranstrom/scnvim', { 'do': {-> scnvim#install() } }
 
 
 "==============================================
@@ -40,7 +32,7 @@ Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'maxmellon/vim-jsx-pretty' " JSX Syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} "Python syntax
-
+Plug 'sheerun/vim-polyglot' "a bunch of syntax highlighting
 
 
 "==============================================
@@ -55,7 +47,6 @@ Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} "Python syntax
 "Plug 'sainnhe/everforest'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
-Plug 'sheerun/vim-polyglot'
 
 " Initialize plugin system
 call plug#end()
@@ -154,18 +145,6 @@ command! -nargs=* -bang RG call RipgrepFzf(<q-args>,<bang>0)
 "
 let g:ranger_map_keys = 0
 
-"==============================================
-"             VIM PRETTIER 
-"==============================================
-"let g:prettier#quickfix_enabled = 0
-"let g:prettier#quickfix_auto_focus = 0
-" prettier command for coc
-" command! -nargs=0 Prettier :CocCommand prettier.formatFile
-" run prettier on save
-"let g:prettier#autoformat = 0
-"autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
-
-
 
 
 "==============================================
@@ -178,22 +157,12 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-pyright',
   \ 'coc-eslint', 
-  \ 'coc-prettier', 
   \ 'coc-json', 
   \ ]
 
 let g:coc_filetype_map = {
 \ 'js': 'javascriptreact',
 \ }
-
-"haskell config
-set rtp+=~/.vim/pack/XXX/start/LanguageClient-neovim
-let g:LanguageClient_serverCommands = { 'haskell': ['haskell-language-server-wrapper', '--lsp'] }
-" more haskell config might mess up other stuff
-hi link ALEError Error
-hi Warning term=underline cterm=underline ctermfg=Yellow gui=undercurl guisp=Gold
-hi link ALEWarning Warning
-hi link ALEInfo SpellCap
 
 " from readme
 " if hidden is not set, TextEdit might fail.
@@ -212,26 +181,6 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-
-
-
-function! s:show_documentation()
-  if (index(['vim','help'], &filetype) >= 0)
-    execute 'h '.expand('<cword>')
-  else
-    call CocAction('doHover')
-  endif
-endfunction
-
-
-
-augroup mygroup
-  autocmd!
-  " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
-  " Update signature help on jump placeholder
-  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
-augroup end
 
 
 " Use `:Fold` to fold current buffer
@@ -309,6 +258,8 @@ inoremap jk <ESC>
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
+nnoremap <leader>p :CocCommand prettier.forceFormatDocument<CR>
+
 
 " Remap for do diagnotics of current line
 nmap <leader>e  :CocDiagnostics <CR>
@@ -331,6 +282,8 @@ nnoremap <Leader>dT :call vimspector#ClearBreakpoints()<CR>
 nmap <Leader>dh <Plug>VimspectorStepOut
 nmap <Leader>dl <Plug>VimspectorStepInto
 nmap <Leader>dj <Plug>VimspectorStepOver
+
+nnoremap  <Leader><Leader> gt
 
 "==============================================
 "               gitsigns

@@ -147,7 +147,7 @@ alias n="nvim"
 alias c="code ."
 alias gpush="git push -u origin \$(git branch --show-current)"
 alias br="git checkout \$(git branch | fzf)"
-alias screenshot="gimp ~/Pictures/Screenshots/$(ls ~/Pictures/Screenshots/ -t | awk '{print($0);exit}') & disown; exit"
+alias screenshot="nohup gimp ~/Pictures/Screenshots/$(ls ~/Pictures/Screenshots/ -t | awk '{print($0);exit}'); exit"
 
 
 #alias box1="ssh george@ec2-54-221-59-146.compute-1.amazonaws.com"
@@ -161,7 +161,7 @@ alias cooltree="cbonsai -S -m 'keep it real kid' -L 60"
 alias game="~/Downloads/terranil/'Terra Nil.x86_64'"
 alias imhome="xrandr --output DP-1-3 --auto --left-of eDP-1 --primary"
 alias norules="feh --bg-scale ~/Pictures/Wallpapers/barbarella.jpg"
-alias startup="zsh ~/.config/scripts/startup.sh"
+alias startup="nohup zsh ~/.config/scripts/startup.sh; exit"
 alias debuggers="cd ~/Repos/lemonade; c .; cd ~/Repos/lemonade-api/; c .;"
 alias pgcli="pgcli -h localhost -p 54321 -U lemonade"
 alias ls="exa"
@@ -186,6 +186,7 @@ if [ -f '/home/george/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 path+="$HOME/.cargo/bin"
 path+="$HOME/Go"
+path+="$HOME/.local/bin"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

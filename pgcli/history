@@ -409,3 +409,177 @@
 
 # 2023-05-03 12:34:09.462242
 +exit
+
+# 2023-05-04 10:36:29.874243
++select * from organization
+
+# 2023-05-04 10:36:35.309350
++select * from program
+
+# 2023-05-04 10:36:41.896198
++select * from permission
+
+# 2023-05-04 10:36:46.825363
++select * from role
+
+# 2023-05-04 10:36:52.822030
++exit()
+
+# 2023-05-04 10:36:54.881981
++exit
+
+# 2023-05-04 11:11:13.889739
++select * from role
+
+# 2023-05-04 11:18:51.613451
++select * from role_permission
+
+# 2023-05-04 11:45:42.588674
++select * from organization
+
+# 2023-05-04 11:47:17.042711
++INSERT INTO organization (name) VALUES('testorg1')
+
+# 2023-05-04 11:47:34.715427
++exit!
+
+# 2023-05-04 11:47:36.452854
++exit
+
+# 2023-05-04 11:54:08.006096
++INSERT INTO organization (id,name) VALUES('123','testorg1')
+
+# 2023-05-04 11:54:22.767210
++INSERT INTO organization (id,name) VALUES("123","testorg1")
+
+# 2023-05-04 11:54:56.633818
++INSERT INTO organization (name) VALUES('testorg1')
+
+# 2023-05-04 12:11:24.652659
++SEL
+
+# 2023-05-04 12:11:53.580485
++select * from design
+
+# 2023-05-08 16:05:46.544425
++select * from perm
+
+# 2023-05-08 16:05:50.001432
++select * from permission
+
+# 2023-05-08 16:05:58.458415
++select * from role
+
+# 2023-05-08 16:08:59.533257
++select * from permission
+
+# 2023-05-08 16:09:34.690488
++select * from role
+
+# 2023-05-08 16:12:54.650482
++select * from permission
+
+# 2023-05-08 16:14:05.388108
++select * from role
+
+# 2023-05-08 16:19:03.672803
++select * from perm
+
+# 2023-05-08 16:19:08.203092
++select * from permission
+
+# 2023-05-08 16:19:56.715030
++select * from role_permission
+
+# 2023-05-08 16:26:10.228366
++exit
+
+# 2023-05-08 16:26:14.955415
++exit
+
+# 2023-05-09 10:40:06.260518
++select * from permission
+
+# 2023-05-17 14:33:34.642939
++TRUNCATE product CASCADE
+
+# 2023-05-17 14:33:48.145931
++exit()
+
+# 2023-05-17 14:33:49.479199
++exit
+
+# 2023-05-17 14:34:33.008750
++TRUNCATE platform_product
+
+# 2023-05-17 14:34:39.140755
++TRUNCATE platform_product CASCADE
+
+# 2023-05-17 14:34:46.828394
++TRUNCATE * CASCADE
+
+# 2023-05-17 14:35:11.907053
++ext
+
+# 2023-05-17 14:35:13.192640
++exit
+
+# 2023-06-14 12:10:13.804901
++select * from user_profile
+
+# 2023-06-14 12:30:15.317007
++select * from shop_config
+
+# 2023-06-14 12:30:49.213865
++exit
+
+# 2023-06-14 16:03:09.522854
++select * from shop_config
+
+# 2023-06-14 16:03:16.986513
++select shop_portrait from shop_config
+
+# 2023-06-14 16:14:21.775924
++select * from user_profile 
+
+# 2023-06-15 11:57:58.313290
++select avatar_version from user_profile join eternia_user ON eternia_user.id = user_profile.user_id join shop ON shop.user_id = eternia_user.id join shop_config ON shop_config.shop_id = shop.id
+
+# 2023-06-15 11:58:18.885383
++select shop_portrait,photo_version,avatar_version from user_profile join eternia_user ON eternia_user.id = user_profile.user_id join shop ON shop.user_id = eternia_user.id join shop_config ON shop_config.shop_id = shop.id
+
+# 2023-06-22 15:45:53.638280
++select * from product
+
+# 2023-06-22 15:48:54.202295
++select program_id from producty
+
+# 2023-06-22 15:48:55.708168
++select program_id from product
+
+# 2023-06-22 15:52:09.982748
++quit
+
+# 2023-06-22 15:56:35.492368
++select program_id from product
+
+# 2023-06-22 16:42:54.807502
++select * from profram
+
+# 2023-06-22 16:42:57.076393
++select * from program
+
+# 2023-06-26 12:42:19.156849
++select program_id from product
+
+# 2023-06-26 12:42:28.691903
++select program_id from product where program_id is not NULL
+
+# 2023-06-27 10:33:42.577733
++select * from shop_contact
+
+# 2023-07-03 14:53:21.266480
++select id from program
+
+# 2023-07-03 14:53:36.579887
++select * from shop
