@@ -583,3 +583,87 @@
 
 # 2023-07-03 14:53:36.579887
 +select * from shop
+
+# 2023-11-16 21:19:03.727608
++select * from information_schema
+
+# 2023-11-16 21:19:12.374021
++select * from public
+
+# 2023-11-16 21:19:31.966422
++\l
+
+# 2023-11-16 21:19:41.605498
++\c playlist_db
+
+# 2023-11-16 21:19:49.001921
++\dt
+
+# 2023-11-16 21:19:58.157003
++exit()
+
+# 2023-11-16 21:20:00.141173
++exit
+
+# 2023-11-16 21:28:35.305294
++\c playlist_db
+
+# 2023-11-16 21:28:39.065741
++\dt
+
+# 2023-11-16 21:28:57.308655
++\d "Tracks"
+
+# 2023-12-15 19:05:50.557596
++select * from "TrackModels"
+
+# 2023-12-15 19:12:53.520701
++select * from "Tr
+
+# 2023-12-15 19:12:58.153335
++select * from "TrackModels"
+
+# 2023-12-31 14:50:13.580906
++\c playlist_db
+
+# 2023-12-31 14:50:19.321074
++select * from "TrackModels"
+
+# 2023-12-31 14:50:25.126997
++select * from "TrackJunctionModels"
+
+# 2023-12-31 15:03:01.674793
++select * from "TrackModels"
+
+# 2023-12-31 18:29:48.610304
++select * from "TrackJunctionModels"
+
+# 2023-12-31 18:29:55.877010
++select * from "TrackModels"
+
+# 2024-01-05 13:04:32.280205
++select * from "TrackJunctionModels"
+
+# 2024-01-05 13:04:35.061979
++select * from "TrackModels"
+
+# 2024-01-05 13:05:26.238951
++select * from "TrackJunctionModels"
+
+# 2024-01-05 13:12:41.539390
++select * from "TrackModels"
+
+# 2024-01-05 13:13:01.702255
++select * from "TrackJunctionModels"
+
+# 2024-01-05 13:13:02.741148
++select * from "TrackModels"
+
+# 2024-01-05 13:13:10.775060
++select * from "TrackJunctionModels"
+
+# 2024-01-05 13:13:11.863101
++select * from "TrackModels"
+
+# 2024-01-13 15:44:56.450088
++select * from "TrackJunctionModels"

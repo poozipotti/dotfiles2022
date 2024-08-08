@@ -15,7 +15,7 @@ for m in $MONITORS; do
     fi
 done 
 
-MULTI_BACKGROUND="Pictures/Wallpapers/barberella/full_wallpaper_stars.png"
+MULTI_BACKGROUND="Pictures/Wallpapers/FairyLand/full_wallpaper.png"
 BACKGROUND=$MULTI_BACKGROUND
 
 if [ $MONITOR_COUNT -gt 1 ]; then

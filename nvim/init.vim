@@ -33,6 +33,8 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'maxmellon/vim-jsx-pretty' " JSX Syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} "Python syntax
 Plug 'sheerun/vim-polyglot' "a bunch of syntax highlighting
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' } "color highlighting
+Plug 'posva/vim-vue'
 
 
 "==============================================
@@ -70,9 +72,9 @@ colorscheme dracula
 "pretty split
 set laststatus=3
 
-
-
-
+"set window title to the working directory
+set titlestring+=\ pwd:\ %{substitute(getcwd(),\ $HOME,\ '~',\ '')}
+set title
 
 
 
@@ -163,6 +165,7 @@ let g:coc_global_extensions = [
 let g:coc_filetype_map = {
 \ 'js': 'javascriptreact',
 \ }
+
 
 " from readme
 " if hidden is not set, TextEdit might fail.

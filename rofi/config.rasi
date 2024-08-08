@@ -2,9 +2,9 @@
 
 * {
     font: "Z003 20";
-    foreground: #282a36;
-    background-color: #282a3600;
-    active-background: #ff79c6;
+    foreground: #f4e4c2;
+    background-color: #00000000;
+    active-background: #00000088;
     urgent-background: #ff5555;
     urgent-foreground: #282a36;
     selected-background: @active-background;
@@ -21,11 +21,12 @@ configuration {
 }
 
 #window {
-    height: 1000px;
+    height: 1133px;
+    width: 1400px; 
     background-color: #282a36;
-    border:           0;
+    border:           2;
     padding:          15;
-    background-image: url("/home/george/Pictures/Wallpapers/barberella/queen.png");
+    background-image: url("/home/george/Pictures/Wallpapers/FairyLand/rofi_darker.png");
 }
 #mainbox {
     border:  0;
